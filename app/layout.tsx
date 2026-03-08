@@ -1,57 +1,81 @@
-import type React from "react"
-import "./globals.css"
-import type { Metadata } from "next"
-import { ThemeProvider } from "@/components/theme-provider"
-import { Oxanium, Merriweather, Fira_Code } from "next/font/google"
-
-// Load Oxanium font
-const oxanium = Oxanium({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  display: "swap",
-  variable: "--font-sans",
-})
-
-// Load Merriweather font
-const merriweather = Merriweather({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-  display: "swap",
-  variable: "--font-serif",
-})
-
-// Load Fira Code font
-const firaCode = Fira_Code({
-  subsets: ["latin"],
-  weight: ["400", "500"],
-  display: "swap",
-  variable: "--font-mono",
-})
+import type { Metadata } from "next";
+import Link from "next/link";
+import "./globals.css";
+import { SECTIONS } from "@/lib/markdown";
 
 export const metadata: Metadata = {
-  title: "LaunchWeek.ai - Launch Your SaaS in Just One Week",
-  description: "Transform your SaaS ideas into launched products in just 5 days, without coding skills.",
-  icons: {
-    icon: "https://azo00ezzuo1aawno.public.blob.vercel-storage.com/logo/favicon.ico",
+  title: "LaunchWeek.ai",
+  description:
+    "Launch Your SaaS in 5 Days. The go-to-market companion to VibeWeek. 33 free guides covering research, positioning, content, distribution, conversion, and launch.",
+  openGraph: {
+    title: "LaunchWeek.ai — Launch Your SaaS in 5 Days",
+    description:
+      "33 free guides to go from built to launched. The GTM companion to VibeWeek.ai.",
+    url: "https://launchweek.ai",
+    siteName: "LaunchWeek.ai",
+    type: "website",
   },
-    generator: 'v0.app'
-}
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${oxanium.variable} ${merriweather.variable} ${firaCode.variable}`}>
-      <head>
-        <link rel="icon" href="https://azo00ezzuo1aawno.public.blob.vercel-storage.com/logo/favicon.ico" sizes="any" />
-      </head>
-      <body>
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
+    <html lang="en">
+      <body className="min-h-screen bg-white text-gray-900 antialiased">
+        <header className="border-b border-gray-100 sticky top-0 bg-white/95 backdrop-blur z-10">
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 flex items-center justify-between h-14">
+            <Link
+              href="/"
+              className="font-semibold text-gray-900 hover:text-orange-600 transition-colors"
+            >
+              LaunchWeek.ai
+            </Link>
+            <nav className="flex items-center gap-1 overflow-x-auto">
+              {SECTIONS.map((s) => (
+                <Link
+                  key={s.slug}
+                  href={`/${s.slug}`}
+                  className="text-sm text-gray-500 hover:text-gray-900 px-2 py-1 rounded hover:bg-gray-50 transition-colors whitespace-nowrap"
+                >
+                  {s.day !== null ? `Day ${s.day}` : s.label}
+                </Link>
+              ))}
+            </nav>
+          </div>
+        </header>
+
+        <main className="max-w-5xl mx-auto px-4 sm:px-6 py-10">
           {children}
-        </ThemeProvider>
+        </main>
+
+        <footer className="border-t border-gray-100 mt-20">
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 py-8 text-center text-sm text-gray-400">
+            Also building?{" "}
+            <a
+              href="https://vibeweek.ai"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-orange-500 hover:text-orange-700 transition-colors"
+            >
+              VibeWeek.ai
+            </a>{" "}
+            helps you ship in a week.{" "}
+            <span className="mx-2">·</span>
+            Built by{" "}
+            <a
+              href="https://www.buildadataadvantage.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-gray-600 transition-colors"
+            >
+              Data Advantage
+            </a>
+          </div>
+        </footer>
       </body>
     </html>
-  )
+  );
 }
