@@ -6,11 +6,11 @@ import { SECTIONS } from "@/lib/markdown";
 export const metadata: Metadata = {
   title: "LaunchWeek.ai — Launch Your SaaS in 5 Days",
   description:
-    "33 free guides to go from built to launched. Research, positioning, content, distribution, conversion, and launch — the complete GTM playbook for solo founders.",
+    "26 free guides to go from built to launched. Positioning, content, distribution, conversion, and launch — the complete GTM playbook for solo founders.",
   openGraph: {
     title: "LaunchWeek.ai — Launch Your SaaS in 5 Days",
     description:
-      "33 free guides covering the full GTM playbook. The marketing companion to VibeWeek.ai.",
+      "26 free guides covering the full GTM playbook. The marketing companion to VibeWeek.ai.",
     url: "https://launchweek.ai",
     siteName: "LaunchWeek.ai",
     type: "website",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "LaunchWeek.ai — Launch Your SaaS in 5 Days",
     description:
-      "33 free guides for solo founders. Research, positioning, SEO, distribution, conversion, and launch — all in one week.",
+      "26 free guides for solo founders. Positioning, SEO, distribution, conversion, and launch — all in one week.",
   },
 };
 

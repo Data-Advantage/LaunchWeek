@@ -8,7 +8,6 @@ import remarkHtml from "remark-html";
 const CONTENT_DIR = path.join(process.cwd(), "content");
 
 export const SECTIONS = [
-  { slug: "research", dir: "0-research", label: "Research", day: 0 },
   { slug: "position", dir: "1-position", label: "Day 1: Position", day: 1 },
   { slug: "content", dir: "2-content", label: "Day 2: Content", day: 2 },
   { slug: "distribute", dir: "3-distribute", label: "Day 3: Distribute", day: 3 },

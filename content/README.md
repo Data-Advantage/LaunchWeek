@@ -10,14 +10,15 @@
 
 | Day | Theme | What You Build |
 |-----|-------|----------------|
-| [Day 0: Research](0-research/README.md) | Understand your market | Market brief, competitive matrix, ICP, positioning, demand validation |
-| [Day 1: Position](1-position/README.md) | Nail your story | Value prop, pricing, landing page copy, brand voice, pitch deck |
+| [Day 1: Position](1-position/README.md) | Nail your story | Value prop, pricing, landing page copy |
 | [Day 2: Content](2-content/README.md) | Build your content engine | SEO strategy, 5 blog posts, social calendar, email sequences, AEO/GEO |
 | [Day 3: Distribute](3-distribute/README.md) | Get in front of your ICP | Social profiles, community presence, cold outreach, partnerships, GitHub |
 | [Day 4: Convert](4-convert/README.md) | Turn visitors into customers | Analytics, A/B testing, onboarding, pricing page, Stripe, churn |
 | [Day 5: Launch](5-launch/README.md) | Execute a coordinated launch | Launch checklist, community launch, HN, press, announcements, retrospective |
 
-## 33 Guides. All Free.
+> **New to AI tools or want foundational knowledge first?** Start with [VibeReference.com](https://vibereference.com) — a reference library covering market research, positioning, ICP, competitive analysis, and more.
+
+## 26 Guides. All Free.
 
 Every guide is:
 - **Action-oriented** — prompts, templates, and checklists you can use today
