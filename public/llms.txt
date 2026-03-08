@@ -1,0 +1,26 @@
+# LaunchWeek
+
+> LaunchWeek is a free guide collection for launching a SaaS product in 5 days. 33+ step-by-step go-to-market guides covering positioning, distribution, pricing, landing pages, and growth — built for indie hackers and vibe coders.
+
+## Sections
+
+- [Home](https://launchweek.ai) — Overview and guide index
+- [Positioning](https://launchweek.ai/positioning) — Define your product's market position and messaging
+- [Distribution](https://launchweek.ai/distribution) — Channels, launch tactics, and audience-building
+- [Pricing](https://launchweek.ai/pricing) — Pricing strategy and packaging for SaaS
+- [Landing Pages](https://launchweek.ai/landing-pages) — Landing page copy, structure, and conversion tips
+- [Growth](https://launchweek.ai/growth) — Post-launch growth tactics and retention
+
+## Quick Links
+
+- All guides: https://launchweek.ai
+- Sister site (build): https://vibeweek.ai
+- AI model reference: https://llmreference.com
+- Prompt library: https://vibereference.com
+
+## Key Facts
+
+- Free, no sign-up required
+- 33+ guides covering the full SaaS launch playbook
+- Companion to VibeWeek.ai (VibeWeek = Build, LaunchWeek = Launch)
+- New guides added regularly
