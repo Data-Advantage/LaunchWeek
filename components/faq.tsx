@@ -57,7 +57,7 @@ export function FAQ() {
           </div>
         </div>
         <div className="mx-auto mt-16 max-w-3xl">
-          <Accordion type="single" collapsible className="w-full">
+          <Accordion className="w-full">
             {faqs.map((faq, index) => (
               <AccordionItem key={index} value={`item-${index}`}>
                 <AccordionTrigger className="text-left">{faq.question}</AccordionTrigger>
