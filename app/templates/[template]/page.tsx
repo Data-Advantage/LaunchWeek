@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getTemplatePage, TEMPLATES } from "@/lib/templates";
 import { TemplateNav } from "@/components/template-nav";
-import MarkdownContent from "@/components/MarkdownContent";
+import { CustomizeSection } from "@/components/customize-section";
 
 const SEO_DESCRIPTIONS: Record<string, string> = {
   company:
@@ -74,7 +74,10 @@ export default async function TemplatePage({
         </p>
       </div>
 
-      <MarkdownContent html={data.contentHtml} />
+      <CustomizeSection
+        templateSlug={template}
+        templateHtml={data.contentHtml}
+      />
 
       <div className="mt-12 pt-6 border-t border-gray-100 flex items-center justify-between">
         <div>

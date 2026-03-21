@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Inter, Lexend } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 import { SECTIONS } from "@/lib/markdown";
 
@@ -94,6 +95,7 @@ export default function RootLayout({
             </a>
           </div>
         </footer>
+        <Analytics />
       </body>
     </html>
   );
