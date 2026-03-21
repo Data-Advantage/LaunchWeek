@@ -30,6 +30,12 @@ The goal is not to produce content for the sake of content. Every piece you crea
 | 5 | [Content Repurposing Playbook](content-repurposing.md) | Repurposing system for every piece |
 | 6 | [AI-Optimized Content (AEO/GEO)](aeo-geo.md) | Structured content for AI answers |
 
+### Agent Company Track
+
+| # | Guide | What You'll Build |
+|---|-------|------------------|
+| A2 | [Build Your Content Agent](content-agent.md) | CONTENT.md + a content pipeline that generates drafts automatically |
+
 ## What You'll Have at the End of Day 2
 
 - A keyword map with 20+ target keywords prioritized by opportunity

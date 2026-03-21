@@ -25,6 +25,12 @@ Today you fix those problems.
 | 5 | [Payment Integration (Stripe in 30 Min)](stripe-payments.md) | Stripe fully wired up |
 | 6 | [Reduce Churn Before It Starts](reduce-churn.md) | Early warning system for at-risk users |
 
+### Agent Company Track
+
+| # | Guide | What You'll Build |
+|---|-------|------------------|
+| A4 | [Build Your Support Agent](support-agent.md) | SUPPORT.md + a draft pipeline that handles 80% of tickets automatically |
+
 ## What You'll Have at the End of Day 4
 
 - Analytics tracking the metrics that matter (not vanity metrics)

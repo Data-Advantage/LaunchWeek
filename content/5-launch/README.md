@@ -23,6 +23,13 @@ The founder mistake is treating launch as a one-day event. The best launches are
 | 5 | [Launch Announcement Templates](launch-announcements.md) | Ready-to-send templates for every channel |
 | 6 | [Post-Launch: Week 1 Review](post-launch-review.md) | Metrics review and transition to growth mode |
 
+### Agent Company Track
+
+| # | Guide | What You'll Build |
+|---|-------|------------------|
+| A5 | [Agent Company Goes Live](agent-company-live.md) | Full agent company in operation + sustained operating rhythm |
+| A6 | [Behind the Scenes: How We Built This Site with Agents](behind-the-scenes.md) | Real look at how Data Advantage runs on autonomous agents |
+
 ## What You'll Have at the End of Day 5
 
 - A coordinated launch executed across 5+ channels

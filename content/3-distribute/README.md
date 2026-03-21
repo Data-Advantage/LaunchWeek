@@ -22,6 +22,12 @@ The distribution mindset shift: you're not broadcasting. You're contributing to 
 | 4 | [Partnership and Cross-Promotion Playbook](partnerships.md) | 10 partnership targets + pitch templates |
 | 5 | [Leverage GitHub for Distribution](github-distribution.md) | Optimized README + open-source component plan |
 
+### Agent Company Track
+
+| # | Guide | What You'll Build |
+|---|-------|------------------|
+| A3 | [Build Your Outreach Agent](outreach-agent.md) | OUTREACH.md + a community monitor that surfaces opportunities for your review |
+
 ## What You'll Have at the End of Day 3
 
 - Fully optimized social profiles on your chosen platforms

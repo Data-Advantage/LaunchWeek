@@ -24,6 +24,12 @@ Skip this day and you'll produce a lot of output that doesn't cohere. Do it righ
 | 4 | [Define Your Brand Voice](brand-voice.md) | Brand voice guide + do/don't examples |
 | 5 | [Build Your Pitch Deck](pitch-deck.md) | 10-slide pitch deck outline + key slides |
 
+### Agent Company Track
+
+| # | Guide | What You'll Build |
+|---|-------|------------------|
+| A1 | [Build Your Company OS: COMPANY.md and MARKETING.md](company-os.md) | The two context files that power every agent in your company |
+
 ## What You'll Have at the End of Day 1
 
 - A value proposition you can say out loud and have people immediately understand
