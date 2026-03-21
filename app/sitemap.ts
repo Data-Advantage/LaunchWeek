@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next'
 import { SECTIONS, getSectionTopics } from '@/lib/markdown'
+import { TEMPLATES } from '@/lib/templates'
 
 const BASE_URL = 'https://launchweek.ai'
 
@@ -31,5 +32,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   )
 
-  return [...homepage, ...sectionPages, ...topicPages]
+  const templateHub: MetadataRoute.Sitemap = [
+    {
+      url: `${BASE_URL}/templates`,
+      lastModified: now,
+      changeFrequency: 'weekly' as const,
+      priority: 0.9,
+    },
+    {
+      url: `${BASE_URL}/templates/demo`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    },
+  ]
+
+  const templatePages: MetadataRoute.Sitemap = TEMPLATES.map((t) => ({
+    url: `${BASE_URL}/templates/${t.slug}`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.8,
+  }))
+
+  return [...homepage, ...sectionPages, ...topicPages, ...templateHub, ...templatePages]
 }
