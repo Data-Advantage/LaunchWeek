@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { TEMPLATES } from "@/lib/templates";
 import { TemplateNav } from "@/components/template-nav";
+import { TemplateHubActions } from "@/components/template-hub-actions";
 
 export const metadata: Metadata = {
   title: "Company OS Templates — LaunchWeek.ai",
@@ -18,6 +19,8 @@ export default function TemplatesHub() {
   return (
     <div>
       <TemplateNav current="/templates" />
+
+      <TemplateHubActions />
 
       <div className="mb-12">
         <h1 className="text-3xl font-bold text-gray-900 mb-4">

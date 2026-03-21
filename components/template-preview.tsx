@@ -33,6 +33,12 @@ export function TemplatePreview({
 
   return (
     <div className="space-y-4">
+      {/* Toast notification */}
+      {copied && (
+        <div className="fixed bottom-5 right-5 z-50 rounded-lg bg-gray-900 px-4 py-2.5 text-sm font-medium text-white shadow-lg pointer-events-none">
+          Copied to clipboard!
+        </div>
+      )}
       <div className="flex items-center justify-between">
         <h3 className="text-sm font-semibold text-gray-700">
           Generated {templateSlug.toUpperCase()}.md
@@ -48,7 +54,7 @@ export function TemplatePreview({
             onClick={handleCopy}
             className="rounded-md border border-gray-200 px-3 py-1.5 text-xs font-medium text-gray-600 hover:bg-gray-50 transition-colors"
           >
-            {copied ? "Copied!" : "Copy"}
+            Copy
           </button>
           <button
             onClick={handleDownload}

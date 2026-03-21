@@ -2,11 +2,16 @@
 
 import { useState, useEffect } from "react";
 import { track } from "@vercel/analytics";
+import Link from "next/link";
 import { TemplateForm } from "./template-form";
 import { TemplatePreview } from "./template-preview";
 import MarkdownContent from "./MarkdownContent";
 
 const COMPANY_STORAGE_KEY = "launchweek_company_md";
+
+function getTemplateStorageKey(slug: string) {
+  return `launchweek_${slug}_md`;
+}
 
 type TabId = "template" | "customize";
 type GenerateState = "idle" | "loading" | "done" | "error";
@@ -64,8 +69,10 @@ export function CustomizeSection({
       setGeneratedMarkdown(data.result);
       setGenerateState("done");
 
-      // Persist COMPANY.md to localStorage for cross-template context
+      // Persist all generated templates to localStorage
+      localStorage.setItem(getTemplateStorageKey(templateSlug), data.result);
       if (templateSlug === "company") {
+        // Keep backwards-compat key for company
         localStorage.setItem(COMPANY_STORAGE_KEY, data.result);
         setCompanyContext(data.result);
       }
@@ -114,6 +121,18 @@ export function CustomizeSection({
       {/* Customize tab */}
       {activeTab === "customize" && (
         <div className="max-w-2xl">
+          {/* Nudge to start with COMPANY.md when context is missing */}
+          {templateSlug !== "company" && companyContext === null && generateState === "idle" && (
+            <div className="mb-5 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3">
+              <p className="text-sm text-amber-800">
+                <span className="font-semibold">Tip:</span> Start with{" "}
+                <Link href="/templates/company" className="underline hover:text-amber-900">
+                  COMPANY.md
+                </Link>{" "}
+                first — the AI uses it to personalize all other templates with your company&apos;s voice and context.
+              </p>
+            </div>
+          )}
           {generateState === "done" && generatedMarkdown ? (
             <TemplatePreview
               templateSlug={templateSlug}
