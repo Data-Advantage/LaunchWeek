@@ -3,10 +3,26 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --color-background: #ffffff;
+    --color-foreground: #111827;
+    --color-muted: #6b7280;
+    --color-border: #f3f4f6;
+    --color-accent: #ea580c;
+    --color-accent-hover: #c2410c;
+  }
+
   * {
     box-sizing: border-box;
   }
+
   body {
-    font-family: system-ui, -apple-system, sans-serif;
+    font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-lexend), var(--font-inter), system-ui, sans-serif;
   }
 }
