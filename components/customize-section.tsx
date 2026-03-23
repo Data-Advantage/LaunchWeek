@@ -33,7 +33,6 @@ export function CustomizeSection({
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [companyContext, setCompanyContext] = useState<string | null>(null);
 
-  // Load stored COMPANY.md from localStorage on mount
   useEffect(() => {
     const stored = localStorage.getItem(COMPANY_STORAGE_KEY);
     if (stored) setCompanyContext(stored);
@@ -69,10 +68,8 @@ export function CustomizeSection({
       setGeneratedMarkdown(data.result);
       setGenerateState("done");
 
-      // Persist all generated templates to localStorage
       localStorage.setItem(getTemplateStorageKey(templateSlug), data.result);
       if (templateSlug === "company") {
-        // Keep backwards-compat key for company
         localStorage.setItem(COMPANY_STORAGE_KEY, data.result);
         setCompanyContext(data.result);
       }
@@ -97,15 +94,15 @@ export function CustomizeSection({
   return (
     <div>
       {/* Tabs */}
-      <div className="mb-6 flex border-b border-gray-200">
+      <div className="mb-6 flex border-b border-slate-200">
         {(["template", "customize"] as TabId[]).map((tab) => (
           <button
             key={tab}
             onClick={() => setActiveTab(tab)}
-            className={`px-5 py-2.5 text-sm font-medium transition-colors border-b-2 -mb-px ${
+            className={`-mb-px border-b-2 px-5 py-2.5 text-sm font-medium transition-colors ${
               activeTab === tab
-                ? "border-orange-500 text-orange-600"
-                : "border-transparent text-gray-500 hover:text-gray-700"
+                ? "border-brand-500 text-brand-600"
+                : "border-transparent text-slate-500 hover:text-slate-700"
             }`}
           >
             {tab === "template" ? "Template" : "Customize with AI"}
@@ -113,15 +110,14 @@ export function CustomizeSection({
         ))}
       </div>
 
-      {/* Template tab */}
       {activeTab === "template" && (
-        <MarkdownContent html={templateHtml} />
+        <div className="rounded-xl border border-slate-200 bg-white p-6 sm:p-8">
+          <MarkdownContent html={templateHtml} />
+        </div>
       )}
 
-      {/* Customize tab */}
       {activeTab === "customize" && (
         <div className="max-w-2xl">
-          {/* Nudge to start with COMPANY.md when context is missing */}
           {templateSlug !== "company" && companyContext === null && generateState === "idle" && (
             <div className="mb-5 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3">
               <p className="text-sm text-amber-800">

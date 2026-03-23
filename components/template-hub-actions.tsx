@@ -67,19 +67,19 @@ export function TemplateHubActions() {
   }
 
   return (
-    <div className="mb-8 rounded-lg border border-orange-200 bg-orange-50 px-5 py-4 flex items-center justify-between gap-4">
+    <div className="mb-8 flex items-center justify-between gap-4 rounded-xl border border-brand-200 bg-brand-50 px-6 py-4">
       <div>
-        <p className="text-sm font-semibold text-orange-900">
+        <p className="text-sm font-semibold text-brand-900">
           {generatedSlugs.length} of 5 templates generated
         </p>
-        <p className="text-xs text-orange-700 mt-0.5">
+        <p className="mt-0.5 text-xs text-brand-700">
           {generatedSlugs.map((s) => s.toUpperCase() + ".md").join(", ")}
         </p>
       </div>
       <button
         onClick={handleDownloadAll}
         disabled={downloading}
-        className="shrink-0 rounded-md bg-orange-600 px-4 py-2 text-sm font-semibold text-white hover:bg-orange-700 disabled:opacity-60 transition-colors"
+        className="shrink-0 rounded-lg bg-brand-500 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-brand-600 disabled:opacity-60"
       >
         {downloading ? "Building…" : "Download All (.zip)"}
       </button>

@@ -220,20 +220,20 @@ export function TemplateForm({
   return (
     <form onSubmit={handleSubmit} className="space-y-5">
       {!isCompany && (
-        <div className="rounded-lg border border-orange-100 bg-orange-50 px-4 py-3">
+        <div className="rounded-lg border border-brand-200 bg-brand-50 px-4 py-3">
           {companyContext ? (
-            <p className="text-sm text-orange-700">
+            <p className="text-sm text-brand-800">
               <span className="font-medium">COMPANY.md context loaded.</span>{" "}
               Fill in the fields below and Claude will combine them to generate
               your {templateSlug.toUpperCase()}.md.
             </p>
           ) : (
-            <p className="text-sm text-orange-700">
+            <p className="text-sm text-brand-800">
               <span className="font-medium">No COMPANY.md found.</span>{" "}
               Generate your{" "}
               <a
                 href="/templates/company"
-                className="underline hover:text-orange-900"
+                className="underline hover:text-brand-900"
               >
                 COMPANY.md first
               </a>{" "}
@@ -247,11 +247,11 @@ export function TemplateForm({
         <div key={field.id} className="space-y-1.5">
           <label
             htmlFor={field.id}
-            className="block text-sm font-medium text-gray-700"
+            className="block text-sm font-medium text-slate-700"
           >
             {field.label}
             {field.required && (
-              <span className="ml-1 text-orange-500">*</span>
+              <span className="ml-1 text-brand-500">*</span>
             )}
           </label>
           {field.type === "textarea" ? (
@@ -261,7 +261,7 @@ export function TemplateForm({
               onChange={(e) => handleChange(field.id, e.target.value)}
               placeholder={field.placeholder}
               rows={3}
-              className="w-full rounded-md border border-gray-200 px-3 py-2 text-sm text-gray-900 placeholder-gray-400 focus:border-orange-400 focus:outline-none focus:ring-1 focus:ring-orange-400 resize-y"
+              className="w-full rounded-lg border border-slate-200 bg-white px-3.5 py-2.5 text-sm text-slate-900 placeholder-slate-400 focus:border-brand-400 focus:outline-none focus:ring-2 focus:ring-brand-400/20 resize-y transition"
             />
           ) : (
             <input
@@ -270,7 +270,7 @@ export function TemplateForm({
               value={values[field.id]}
               onChange={(e) => handleChange(field.id, e.target.value)}
               placeholder={field.placeholder}
-              className="w-full rounded-md border border-gray-200 px-3 py-2 text-sm text-gray-900 placeholder-gray-400 focus:border-orange-400 focus:outline-none focus:ring-1 focus:ring-orange-400"
+              className="w-full rounded-lg border border-slate-200 bg-white px-3.5 py-2.5 text-sm text-slate-900 placeholder-slate-400 focus:border-brand-400 focus:outline-none focus:ring-2 focus:ring-brand-400/20 transition"
             />
           )}
         </div>
@@ -279,7 +279,7 @@ export function TemplateForm({
       <button
         type="submit"
         disabled={!hasRequired || isLoading}
-        className="w-full rounded-md bg-orange-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-orange-700 disabled:cursor-not-allowed disabled:opacity-50 transition-colors"
+        className="w-full rounded-lg bg-brand-500 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-brand-600 disabled:cursor-not-allowed disabled:opacity-50"
       >
         {isLoading ? (
           <span className="flex items-center justify-center gap-2">
@@ -309,7 +309,7 @@ export function TemplateForm({
         )}
       </button>
 
-      <p className="text-xs text-gray-400 text-center">
+      <p className="text-center text-xs text-slate-400">
         Powered by Claude Haiku · 10 generations per hour
       </p>
     </form>

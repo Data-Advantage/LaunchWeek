@@ -35,20 +35,69 @@ export default async function TopicPage({
   if (!data) notFound();
 
   const sectionInfo = SECTIONS.find((s) => s.slug === section);
+  const allTopics = getSectionTopics(section);
+  const currentIdx = allTopics.findIndex((t) => t.slug === topic);
+  const prevTopic = currentIdx > 0 ? allTopics[currentIdx - 1] : null;
+  const nextTopic =
+    currentIdx < allTopics.length - 1 ? allTopics[currentIdx + 1] : null;
 
   return (
-    <div>
-      <div className="mb-6 flex items-center gap-2 text-sm">
-        <Link href="/" className="text-orange-500 hover:text-orange-700">
+    <div className="mx-auto max-w-4xl px-6 lg:px-8 py-12">
+      {/* Breadcrumb */}
+      <nav className="mb-8 flex items-center gap-2 text-sm">
+        <Link
+          href="/"
+          className="text-slate-400 transition-colors hover:text-slate-600"
+        >
           LaunchWeek
         </Link>
-        <span className="text-gray-300">›</span>
-        <Link href={`/${section}`} className="text-orange-500 hover:text-orange-700">
+        <span className="text-slate-300">/</span>
+        <Link
+          href={`/${section}`}
+          className="text-slate-400 transition-colors hover:text-slate-600"
+        >
           {sectionInfo?.label ?? section}
         </Link>
-      </div>
+        <span className="text-slate-300">/</span>
+        <span className="truncate font-medium text-slate-700">
+          {data.title}
+        </span>
+      </nav>
 
-      <MarkdownContent html={data.contentHtml} />
+      {/* Content */}
+      <article className="rounded-xl border border-slate-200 bg-white p-6 sm:p-10">
+        <MarkdownContent html={data.contentHtml} />
+      </article>
+
+      {/* Prev / Next nav */}
+      {(prevTopic || nextTopic) && (
+        <div className="mt-8 grid gap-4 sm:grid-cols-2">
+          {prevTopic ? (
+            <Link
+              href={`/${section}/${prevTopic.slug}`}
+              className="card-hover group rounded-lg border border-slate-200 bg-white p-4 transition-colors hover:border-brand-300"
+            >
+              <span className="text-xs text-slate-400">← Previous</span>
+              <span className="mt-1 block text-sm font-medium text-slate-700 group-hover:text-brand-700 transition-colors">
+                {prevTopic.title}
+              </span>
+            </Link>
+          ) : (
+            <div />
+          )}
+          {nextTopic && (
+            <Link
+              href={`/${section}/${nextTopic.slug}`}
+              className="card-hover group rounded-lg border border-slate-200 bg-white p-4 text-right transition-colors hover:border-brand-300"
+            >
+              <span className="text-xs text-slate-400">Next →</span>
+              <span className="mt-1 block text-sm font-medium text-slate-700 group-hover:text-brand-700 transition-colors">
+                {nextTopic.title}
+              </span>
+            </Link>
+          )}
+        </div>
+      )}
     </div>
   );
 }

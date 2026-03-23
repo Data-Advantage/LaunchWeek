@@ -18,22 +18,22 @@ const lexend = Lexend({
 });
 
 export const metadata: Metadata = {
-  title: "LaunchWeek.ai — Launch Your SaaS in 5 Days",
+  title: "LaunchWeek.ai — Build Your Agent Company in 5 Days",
   description:
-    "26 free guides to go from built to launched. Positioning, content, distribution, conversion, and launch — the complete GTM playbook for solo founders.",
+    "The free playbook that teaches founders to build an AI agent company — not just launch a product. 33 guides, 5 templates, and a running company by Day 5.",
   openGraph: {
-    title: "LaunchWeek.ai — Launch Your SaaS in 5 Days",
+    title: "LaunchWeek.ai — Build Your Agent Company in 5 Days",
     description:
-      "26 free guides covering the full GTM playbook. The marketing companion to VibeWeek.ai.",
+      "33 free guides + 5 agent templates. Launch your SaaS and build the AI team that keeps it running.",
     url: "https://launchweek.ai",
     siteName: "LaunchWeek.ai",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "LaunchWeek.ai — Launch Your SaaS in 5 Days",
+    title: "LaunchWeek.ai — Build Your Agent Company in 5 Days",
     description:
-      "26 free guides for solo founders. Positioning, SEO, distribution, conversion, and launch — all in one week.",
+      "The free playbook for solo founders. Launch your product AND build the agent company that runs it.",
   },
 };
 
@@ -44,55 +44,98 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${lexend.variable} min-h-screen bg-white text-gray-900 antialiased font-sans`}>
-        <header className="border-b border-gray-100 sticky top-0 bg-white/95 backdrop-blur z-10">
-          <div className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between h-14">
-            <Link
-              href="/"
-              className="font-semibold text-gray-900 hover:text-orange-600 transition-colors"
-            >
-              LaunchWeek.ai
-            </Link>
-            <nav className="flex items-center gap-1 overflow-x-auto">
-              {SECTIONS.map((s) => (
+      <body
+        className={`${inter.variable} ${lexend.variable} min-h-screen bg-slate-50 text-slate-900 antialiased font-sans`}
+      >
+        <header className="sticky top-0 z-50 border-b border-slate-200/60 bg-white/80 backdrop-blur-xl">
+          <div className="mx-auto max-w-6xl px-6 lg:px-8">
+            <div className="flex h-16 items-center justify-between">
+              <Link
+                href="/"
+                className="font-heading text-lg font-bold tracking-tight text-slate-900 transition-colors hover:text-brand-600"
+              >
+                LaunchWeek
+                <span className="text-brand-500">.ai</span>
+              </Link>
+
+              <nav className="flex items-center gap-1 overflow-x-auto">
+                {SECTIONS.map((s) => (
+                  <Link
+                    key={s.slug}
+                    href={`/${s.slug}`}
+                    className="rounded-md px-3 py-1.5 text-sm font-medium text-slate-500 transition-colors hover:bg-slate-100 hover:text-slate-900 whitespace-nowrap"
+                  >
+                    {s.day !== null ? `Day ${s.day}` : s.label}
+                  </Link>
+                ))}
+                <span className="mx-1 h-4 w-px bg-slate-200" />
                 <Link
-                  key={s.slug}
-                  href={`/${s.slug}`}
-                  className="text-sm text-gray-500 hover:text-gray-900 px-2 py-1 rounded hover:bg-gray-50 transition-colors whitespace-nowrap"
+                  href="/templates"
+                  className="rounded-md bg-brand-500/10 px-3 py-1.5 text-sm font-medium text-brand-700 transition-colors hover:bg-brand-500/20 whitespace-nowrap"
                 >
-                  {s.day !== null ? `Day ${s.day}` : s.label}
+                  Templates
                 </Link>
-              ))}
-            </nav>
+              </nav>
+            </div>
           </div>
         </header>
 
-        <main className="max-w-7xl mx-auto px-6 lg:px-8 py-10">
-          {children}
-        </main>
+        <main>{children}</main>
 
-        <footer className="border-t border-gray-100 mt-20">
-          <div className="max-w-7xl mx-auto px-6 lg:px-8 py-8 text-center text-sm text-gray-400">
-            Also building?{" "}
-            <a
-              href="https://vibeweek.ai"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-orange-500 hover:text-orange-700 transition-colors"
-            >
-              VibeWeek.ai
-            </a>{" "}
-            helps you ship in a week.{" "}
-            <span className="mx-2">·</span>
-            Built by{" "}
-            <a
-              href="https://www.buildadataadvantage.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-gray-600 transition-colors"
-            >
-              Data Advantage
-            </a>
+        <footer className="mt-24 border-t border-slate-200/60 bg-white">
+          <div className="mx-auto max-w-6xl px-6 lg:px-8 py-12">
+            <div className="flex flex-col items-center gap-6 sm:flex-row sm:justify-between">
+              <div>
+                <Link
+                  href="/"
+                  className="font-heading text-base font-bold text-slate-900"
+                >
+                  LaunchWeek<span className="text-brand-500">.ai</span>
+                </Link>
+                <p className="mt-1 text-sm text-slate-400">
+                  The GTM companion to{" "}
+                  <a
+                    href="https://vibeweek.ai"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-brand-500 hover:text-brand-700 transition-colors"
+                  >
+                    VibeWeek.ai
+                  </a>
+                </p>
+              </div>
+
+              <div className="flex items-center gap-6 text-sm text-slate-400">
+                <a
+                  href="https://vibeweek.ai"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-slate-600 transition-colors"
+                >
+                  VibeWeek
+                </a>
+                <a
+                  href="https://vibereference.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-slate-600 transition-colors"
+                >
+                  VibeReference
+                </a>
+                <a
+                  href="https://www.buildadataadvantage.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-slate-600 transition-colors"
+                >
+                  Data Advantage
+                </a>
+              </div>
+            </div>
+
+            <div className="mt-8 border-t border-slate-100 pt-6 text-center text-xs text-slate-400">
+              Open source. Fork it, adapt it, contribute to it.
+            </div>
           </div>
         </footer>
         <Analytics />

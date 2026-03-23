@@ -3,26 +3,53 @@
 @tailwind utilities;
 
 @layer base {
-  :root {
-    --color-background: #ffffff;
-    --color-foreground: #111827;
-    --color-muted: #6b7280;
-    --color-border: #f3f4f6;
-    --color-accent: #ea580c;
-    --color-accent-hover: #c2410c;
-  }
-
   * {
     box-sizing: border-box;
   }
 
   body {
-    font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
-    background-color: var(--color-background);
-    color: var(--color-foreground);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
   }
 
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-lexend), var(--font-inter), system-ui, sans-serif;
+    letter-spacing: -0.02em;
+  }
+
+  ::selection {
+    background-color: #fdba74;
+    color: #7c2d12;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .gradient-text {
+    background: linear-gradient(135deg, #ea580c 0%, #f97316 50%, #fb923c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .hero-gradient {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+  }
+
+  .hero-glow {
+    background: radial-gradient(ellipse 60% 50% at 50% 0%, rgba(249, 115, 22, 0.08) 0%, transparent 70%);
+  }
+
+  .card-hover {
+    transition: all 0.2s ease;
+  }
+
+  .card-hover:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px -12px rgba(0, 0, 0, 0.12);
   }
 }

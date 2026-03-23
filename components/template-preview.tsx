@@ -33,45 +33,44 @@ export function TemplatePreview({
 
   return (
     <div className="space-y-4">
-      {/* Toast notification */}
       {copied && (
-        <div className="fixed bottom-5 right-5 z-50 rounded-lg bg-gray-900 px-4 py-2.5 text-sm font-medium text-white shadow-lg pointer-events-none">
+        <div className="fixed bottom-5 right-5 z-50 pointer-events-none rounded-lg bg-slate-900 px-4 py-2.5 text-sm font-medium text-white shadow-lg">
           Copied to clipboard!
         </div>
       )}
       <div className="flex items-center justify-between">
-        <h3 className="text-sm font-semibold text-gray-700">
+        <h3 className="text-sm font-semibold text-slate-700">
           Generated {templateSlug.toUpperCase()}.md
         </h3>
         <div className="flex items-center gap-2">
           <button
             onClick={onRegenerateClick}
-            className="rounded-md border border-gray-200 px-3 py-1.5 text-xs font-medium text-gray-600 hover:bg-gray-50 transition-colors"
+            className="rounded-md border border-slate-200 px-3 py-1.5 text-xs font-medium text-slate-600 transition-colors hover:bg-slate-50"
           >
             ← Edit form
           </button>
           <button
             onClick={handleCopy}
-            className="rounded-md border border-gray-200 px-3 py-1.5 text-xs font-medium text-gray-600 hover:bg-gray-50 transition-colors"
+            className="rounded-md border border-slate-200 px-3 py-1.5 text-xs font-medium text-slate-600 transition-colors hover:bg-slate-50"
           >
             Copy
           </button>
           <button
             onClick={handleDownload}
-            className="rounded-md bg-orange-600 px-3 py-1.5 text-xs font-semibold text-white hover:bg-orange-700 transition-colors"
+            className="rounded-md bg-brand-500 px-3 py-1.5 text-xs font-semibold text-white transition-colors hover:bg-brand-600"
           >
             Download .md
           </button>
         </div>
       </div>
 
-      <pre className="overflow-auto rounded-lg bg-gray-50 border border-gray-200 p-4 text-xs leading-relaxed text-gray-800 whitespace-pre-wrap font-mono max-h-[600px]">
+      <pre className="max-h-[600px] overflow-auto whitespace-pre-wrap rounded-lg border border-slate-200 bg-slate-50 p-4 font-mono text-xs leading-relaxed text-slate-800">
         {markdown}
       </pre>
 
-      <p className="text-xs text-gray-400">
+      <p className="text-xs text-slate-400">
         Review and edit before deploying to your AI agents. Save this file as{" "}
-        <code className="rounded bg-gray-100 px-1 py-0.5 font-mono">
+        <code className="rounded bg-slate-100 px-1 py-0.5 font-mono">
           {templateSlug.toUpperCase()}.md
         </code>{" "}
         in your agent company repo.

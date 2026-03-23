@@ -12,7 +12,7 @@ const NAV_ITEMS = [
 
 export function TemplateNav({ current }: { current?: string }) {
   return (
-    <nav className="flex items-center gap-1 overflow-x-auto pb-4 mb-6 border-b border-gray-100">
+    <nav className="mb-8 flex items-center gap-1 overflow-x-auto border-b border-slate-200 pb-4">
       {NAV_ITEMS.map((item) => {
         const isActive =
           current === item.href ||
@@ -21,10 +21,10 @@ export function TemplateNav({ current }: { current?: string }) {
           <Link
             key={item.href}
             href={item.href}
-            className={`text-sm px-3 py-1.5 rounded whitespace-nowrap transition-colors ${
+            className={`whitespace-nowrap rounded-md px-3 py-1.5 text-sm font-medium transition-colors ${
               isActive
-                ? "bg-orange-50 text-orange-700 font-medium"
-                : "text-gray-500 hover:text-gray-900 hover:bg-gray-50"
+                ? "bg-brand-50 text-brand-700"
+                : "text-slate-500 hover:bg-slate-100 hover:text-slate-900"
             }`}
           >
             {item.label}
