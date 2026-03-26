@@ -42,7 +42,7 @@ export default async function TopicPage({
     currentIdx < allTopics.length - 1 ? allTopics[currentIdx + 1] : null;
 
   return (
-    <div className="mx-auto max-w-4xl px-6 lg:px-8 py-12">
+    <div className="mx-auto max-w-6xl px-6 lg:px-8 py-12">
       {/* Breadcrumb */}
       <nav className="mb-8 flex items-center gap-2 text-sm">
         <Link
