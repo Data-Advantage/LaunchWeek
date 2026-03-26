@@ -293,7 +293,7 @@ stripe listen --forward-to localhost:3000/api/stripe/webhook
 Check subscription status before allowing access to paid features:
 
 ```typescript
-// middleware.ts or in individual API routes
+// proxy.ts (Next.js 16+; see https://nextjs.org/docs/messages/middleware-to-proxy) or in individual API routes
 import { auth } from '@clerk/nextjs/server'
 import { getUserSubscription } from '@/lib/db'
 
