@@ -74,7 +74,7 @@ export function HeroSection() {
                   <div className="inline-block rounded-full bg-primary px-3 py-1 text-xs font-medium text-primary-foreground">
                     Day 3: Full App Build
                   </div>
-                  <h3 className="text-xl font-bold text-white">Building your SaaS application</h3>
+                  <p className="text-xl font-bold text-white">Building your SaaS application</p>
                 </div>
               </div>
             </div>

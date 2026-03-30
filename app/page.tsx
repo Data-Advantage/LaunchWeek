@@ -69,14 +69,14 @@ export default function HomePage() {
       </section>
 
       {/* Value props */}
-      <section className="border-b border-slate-200/60 bg-white">
+      <section className="border-b border-border/60 bg-card">
         <div className="mx-auto max-w-6xl px-6 lg:px-8 py-12">
           <div className="grid gap-8 sm:grid-cols-3">
             <div>
               <div className="mb-2 text-xs font-semibold uppercase tracking-wider text-brand-500">
                 33 Guides
               </div>
-              <p className="text-sm leading-relaxed text-slate-600">
+              <p className="text-sm leading-relaxed text-muted-foreground">
                 Action-oriented with prompts, templates, and checklists you can
                 use today. AI-accelerated with specific prompts for Claude and
                 Perplexity.
@@ -86,7 +86,7 @@ export default function HomePage() {
               <div className="mb-2 text-xs font-semibold uppercase tracking-wider text-brand-500">
                 5 Agent Templates
               </div>
-              <p className="text-sm leading-relaxed text-slate-600">
+              <p className="text-sm leading-relaxed text-muted-foreground">
                 COMPANY.md, MARKETING.md, CONTENT.md, OUTREACH.md, SUPPORT.md —
                 the markdown files that become your AI operating system.
               </p>
@@ -95,7 +95,7 @@ export default function HomePage() {
               <div className="mb-2 text-xs font-semibold uppercase tracking-wider text-brand-500">
                 Runs After Launch
               </div>
-              <p className="text-sm leading-relaxed text-slate-600">
+              <p className="text-sm leading-relaxed text-muted-foreground">
                 Most playbooks end on launch day. This one builds an agent team
                 that keeps executing while you sleep.
               </p>
@@ -107,10 +107,10 @@ export default function HomePage() {
       {/* Day cards */}
       <section id="days" className="mx-auto max-w-6xl px-6 lg:px-8 py-16">
         <div className="mb-10">
-          <h2 className="font-heading text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">
+          <h2 className="font-heading text-2xl font-bold tracking-tight text-foreground sm:text-3xl">
             The 5-Day Playbook
           </h2>
-          <p className="mt-2 text-slate-500">
+          <p className="mt-2 text-muted-foreground">
             Each day has guides you work through <em>plus</em> the agent layer
             you deploy alongside them.
           </p>
@@ -123,7 +123,7 @@ export default function HomePage() {
               <Link
                 key={s.slug}
                 href={`/${s.slug}`}
-                className="card-hover group relative rounded-xl border border-slate-200 bg-white p-6 sm:p-8"
+                className="card-hover group relative rounded-xl border border-border bg-card p-6 sm:p-8"
               >
                 <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:gap-6">
                   <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-lg bg-slate-900 font-heading text-lg font-bold text-white">
@@ -131,7 +131,7 @@ export default function HomePage() {
                   </div>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-3 mb-1">
-                      <h3 className="font-heading text-lg font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">
+                      <h3 className="font-heading text-lg font-semibold text-foreground group-hover:text-brand-600 transition-colors">
                         {s.label}
                       </h3>
                       {meta && (
@@ -140,11 +140,11 @@ export default function HomePage() {
                         </span>
                       )}
                     </div>
-                    <p className="text-sm leading-relaxed text-slate-500">
+                    <p className="text-sm leading-relaxed text-muted-foreground">
                       {meta?.description ?? s.label}
                     </p>
                   </div>
-                  <div className="hidden sm:block flex-shrink-0 text-slate-300 group-hover:text-brand-400 transition-colors">
+                  <div className="hidden sm:block flex-shrink-0 text-muted-foreground/40 group-hover:text-brand-400 transition-colors">
                     <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
                     </svg>
@@ -196,8 +196,8 @@ export default function HomePage() {
 
       {/* Companion callout */}
       <section className="mx-auto max-w-6xl px-6 lg:px-8 pb-16">
-        <div className="rounded-xl border border-slate-200 bg-white p-6 text-center sm:p-8">
-          <p className="text-sm text-slate-500">
+        <div className="rounded-xl border border-border bg-card p-6 text-center sm:p-8">
+          <p className="text-sm text-muted-foreground">
             The GTM companion to{" "}
             <a
               href="https://vibeweek.ai"

@@ -247,7 +247,7 @@ export function TemplateForm({
         <div key={field.id} className="space-y-1.5">
           <label
             htmlFor={field.id}
-            className="block text-sm font-medium text-slate-700"
+            className="block text-sm font-medium text-foreground"
           >
             {field.label}
             {field.required && (
@@ -261,7 +261,7 @@ export function TemplateForm({
               onChange={(e) => handleChange(field.id, e.target.value)}
               placeholder={field.placeholder}
               rows={3}
-              className="w-full rounded-lg border border-slate-200 bg-white px-3.5 py-2.5 text-sm text-slate-900 placeholder-slate-400 focus:border-brand-400 focus:outline-none focus:ring-2 focus:ring-brand-400/20 resize-y transition"
+              className="w-full rounded-lg border border-border bg-card px-3.5 py-2.5 text-sm text-foreground placeholder-muted-foreground focus:border-brand-400 focus:outline-none focus:ring-2 focus:ring-brand-400/20 resize-y transition"
             />
           ) : (
             <input
@@ -270,7 +270,7 @@ export function TemplateForm({
               value={values[field.id]}
               onChange={(e) => handleChange(field.id, e.target.value)}
               placeholder={field.placeholder}
-              className="w-full rounded-lg border border-slate-200 bg-white px-3.5 py-2.5 text-sm text-slate-900 placeholder-slate-400 focus:border-brand-400 focus:outline-none focus:ring-2 focus:ring-brand-400/20 transition"
+              className="w-full rounded-lg border border-border bg-card px-3.5 py-2.5 text-sm text-foreground placeholder-muted-foreground focus:border-brand-400 focus:outline-none focus:ring-2 focus:ring-brand-400/20 transition"
             />
           )}
         </div>
@@ -309,7 +309,7 @@ export function TemplateForm({
         )}
       </button>
 
-      <p className="text-center text-xs text-slate-400">
+      <p className="text-center text-xs text-muted-foreground">
         Powered by Claude Haiku · 10 generations per hour
       </p>
     </form>

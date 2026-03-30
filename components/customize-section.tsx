@@ -94,7 +94,7 @@ export function CustomizeSection({
   return (
     <div>
       {/* Tabs */}
-      <div className="mb-6 flex border-b border-slate-200">
+      <div className="mb-6 flex border-b border-border">
         {(["template", "customize"] as TabId[]).map((tab) => (
           <button
             key={tab}
@@ -102,7 +102,7 @@ export function CustomizeSection({
             className={`-mb-px border-b-2 px-5 py-2.5 text-sm font-medium transition-colors ${
               activeTab === tab
                 ? "border-brand-500 text-brand-600"
-                : "border-transparent text-slate-500 hover:text-slate-700"
+                : "border-transparent text-muted-foreground hover:text-foreground"
             }`}
           >
             {tab === "template" ? "Template" : "Customize with AI"}
@@ -111,7 +111,7 @@ export function CustomizeSection({
       </div>
 
       {activeTab === "template" && (
-        <div className="rounded-xl border border-slate-200 bg-white p-6 sm:p-8">
+        <div className="rounded-xl border border-border bg-card p-6 sm:p-8">
           <MarkdownContent html={templateHtml} />
         </div>
       )}

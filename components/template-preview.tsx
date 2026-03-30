@@ -34,24 +34,24 @@ export function TemplatePreview({
   return (
     <div className="space-y-4">
       {copied && (
-        <div className="fixed bottom-5 right-5 z-50 pointer-events-none rounded-lg bg-slate-900 px-4 py-2.5 text-sm font-medium text-white shadow-lg">
+        <div className="fixed bottom-5 right-5 z-50 pointer-events-none rounded-lg bg-foreground px-4 py-2.5 text-sm font-medium text-background shadow-lg">
           Copied to clipboard!
         </div>
       )}
       <div className="flex items-center justify-between">
-        <h3 className="text-sm font-semibold text-slate-700">
+        <h3 className="text-sm font-semibold text-foreground">
           Generated {templateSlug.toUpperCase()}.md
         </h3>
         <div className="flex items-center gap-2">
           <button
             onClick={onRegenerateClick}
-            className="rounded-md border border-slate-200 px-3 py-1.5 text-xs font-medium text-slate-600 transition-colors hover:bg-slate-50"
+            className="rounded-md border border-border px-3 py-1.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-muted"
           >
             ← Edit form
           </button>
           <button
             onClick={handleCopy}
-            className="rounded-md border border-slate-200 px-3 py-1.5 text-xs font-medium text-slate-600 transition-colors hover:bg-slate-50"
+            className="rounded-md border border-border px-3 py-1.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-muted"
           >
             Copy
           </button>
@@ -64,13 +64,13 @@ export function TemplatePreview({
         </div>
       </div>
 
-      <pre className="max-h-[600px] overflow-auto whitespace-pre-wrap rounded-lg border border-slate-200 bg-slate-50 p-4 font-mono text-xs leading-relaxed text-slate-800">
+      <pre className="max-h-[600px] overflow-auto whitespace-pre-wrap rounded-lg border border-border bg-muted p-4 font-mono text-xs leading-relaxed text-foreground">
         {markdown}
       </pre>
 
-      <p className="text-xs text-slate-400">
+      <p className="text-xs text-muted-foreground">
         Review and edit before deploying to your AI agents. Save this file as{" "}
-        <code className="rounded bg-slate-100 px-1 py-0.5 font-mono">
+        <code className="rounded bg-muted px-1 py-0.5 font-mono">
           {templateSlug.toUpperCase()}.md
         </code>{" "}
         in your agent company repo.
