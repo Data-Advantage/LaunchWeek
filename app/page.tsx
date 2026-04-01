@@ -41,21 +41,20 @@ export default function HomePage() {
               The free GTM playbook for founders
             </p>
             <h1 className="font-heading text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl text-balance">
-              Build Your Agent Company{" "}
+              Build and Launch Your SaaS{" "}
               <span className="gradient-text">in 5 Days</span>
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-slate-300 max-w-2xl text-balance">
-              33 action-oriented guides that teach you to launch your SaaS{" "}
-              <em>and</em> build the AI agent team that keeps marketing,
-              supporting, and measuring after launch day. Current LaunchWeek
-              ends on Day 5. Yours is still running on Day 50.
+              There&apos;s no clear, sequenced playbook for going from idea to launched product.
+              LaunchWeek is 33 action-oriented guides that take you from zero to launched —
+              with an AI agent team that keeps running after day 5.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Link
                 href="#days"
                 className="inline-flex items-center rounded-lg bg-brand-500 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-brand-500/25 transition hover:bg-brand-600 hover:shadow-brand-500/40"
               >
-                Start the 5-Day Playbook
+                Start Day One
               </Link>
               <Link
                 href="/templates"
@@ -190,6 +189,28 @@ export default function HomePage() {
                 </Link>
               )
             )}
+          </div>
+        </div>
+      </section>
+
+      {/* Failure vs. Success */}
+      <section className="mx-auto max-w-6xl px-6 lg:px-8 pb-16">
+        <div className="grid gap-6 md:grid-cols-2">
+          <div className="rounded-xl border border-border bg-card p-6 sm:p-8">
+            <h3 className="font-heading text-lg font-semibold text-foreground mb-4">Without LaunchWeek</h3>
+            <ul className="space-y-3 text-sm text-muted-foreground">
+              <li className="flex items-start gap-2"><span className="text-red-400">✕</span>You stay in planning mode forever. The product never ships.</li>
+              <li className="flex items-start gap-2"><span className="text-red-400">✕</span>Tutorial after tutorial, but no clear sequence to follow</li>
+              <li className="flex items-start gap-2"><span className="text-red-400">✕</span>Launch day comes and goes with no marketing, no users, no momentum</li>
+            </ul>
+          </div>
+          <div className="rounded-xl border border-brand-500/30 bg-brand-50/5 p-6 sm:p-8">
+            <h3 className="font-heading text-lg font-semibold text-foreground mb-4">With LaunchWeek</h3>
+            <ul className="space-y-3 text-sm text-muted-foreground">
+              <li className="flex items-start gap-2"><span className="text-brand-600">✓</span>You have a live product, an AI team running it, and paying customers — in one week</li>
+              <li className="flex items-start gap-2"><span className="text-brand-600">✓</span>Clear daily guides with prompts, templates, and checklists</li>
+              <li className="flex items-start gap-2"><span className="text-brand-600">✓</span>Your agent company keeps executing while you sleep</li>
+            </ul>
           </div>
         </div>
       </section>
