@@ -59,21 +59,36 @@ export default function RootLayout({
               </Link>
 
               <nav className="flex items-center gap-1 overflow-x-auto">
-                {SECTIONS.map((s) => (
-                  <Link
-                    key={s.slug}
-                    href={`/${s.slug}`}
-                    className="rounded-md px-3 py-1.5 text-sm font-medium text-slate-500 transition-colors hover:bg-slate-100 hover:text-slate-900 whitespace-nowrap"
-                  >
-                    {s.day !== null ? `Day ${s.day}` : s.label}
-                  </Link>
-                ))}
+                <Link
+                  href="/pipeline"
+                  className="rounded-md px-3 py-1.5 text-sm font-semibold text-slate-700 transition-colors hover:bg-slate-100 hover:text-slate-900 whitespace-nowrap"
+                >
+                  Pipeline
+                </Link>
+                <Link
+                  href="/gallery"
+                  className="rounded-md px-3 py-1.5 text-sm font-semibold text-slate-700 transition-colors hover:bg-slate-100 hover:text-slate-900 whitespace-nowrap"
+                >
+                  Gallery
+                </Link>
+                <Link
+                  href="/framework"
+                  className="rounded-md px-3 py-1.5 text-sm font-semibold text-slate-700 transition-colors hover:bg-slate-100 hover:text-slate-900 whitespace-nowrap"
+                >
+                  Framework
+                </Link>
                 <span className="mx-1 h-4 w-px bg-slate-200" />
                 <Link
                   href="/templates"
-                  className="rounded-md bg-brand-500/10 px-3 py-1.5 text-sm font-medium text-brand-700 transition-colors hover:bg-brand-500/20 whitespace-nowrap"
+                  className="rounded-md px-3 py-1.5 text-sm font-medium text-slate-500 transition-colors hover:bg-slate-100 hover:text-slate-900 whitespace-nowrap"
                 >
                   Templates
+                </Link>
+                <Link
+                  href="/u/dataadvantage"
+                  className="rounded-md bg-brand-500/10 px-3 py-1.5 text-sm font-medium text-brand-700 transition-colors hover:bg-brand-500/20 whitespace-nowrap"
+                >
+                  @dataadvantage
                 </Link>
               </nav>
             </div>

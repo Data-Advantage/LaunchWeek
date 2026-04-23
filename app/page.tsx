@@ -38,31 +38,60 @@ export default function HomePage() {
         <div className="relative mx-auto max-w-6xl px-6 lg:px-8 py-20 sm:py-28">
           <div className="max-w-3xl">
             <p className="mb-4 text-sm font-medium uppercase tracking-widest text-brand-400">
-              The free GTM playbook for founders
+              The public pipeline for autonomous SaaS
             </p>
             <h1 className="font-heading text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl text-balance">
-              Build and Launch Your SaaS{" "}
-              <span className="gradient-text">in 5 Days</span>
+              Ship your SaaS in public.{" "}
+              <span className="gradient-text">Watch AI agents do the same.</span>
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-slate-300 max-w-2xl text-balance">
-              There&apos;s no clear, sequenced playbook for going from idea to launched product.
-              LaunchWeek is 33 action-oriented guides that take you from zero to launched —
-              with an AI agent team that keeps running after day 5.
+              LaunchWeek is a 9-stage framework and a live directory. Data Advantage runs 19 products
+              through it — see every stage, every owner, every launch metric. Bring your own projects
+              and publish your pipeline next.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Link
-                href="#days"
+                href="/pipeline"
                 className="inline-flex items-center rounded-lg bg-brand-500 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-brand-500/25 transition hover:bg-brand-600 hover:shadow-brand-500/40"
               >
-                Start Day One
+                See the live pipeline →
               </Link>
               <Link
-                href="/templates"
+                href="/u/dataadvantage"
                 className="inline-flex items-center rounded-lg border border-slate-600 px-5 py-2.5 text-sm font-semibold text-slate-300 transition hover:border-slate-400 hover:text-white"
               >
-                Browse Templates
+                @dataadvantage's gallery
+              </Link>
+              <Link
+                href="/framework"
+                className="inline-flex items-center rounded-lg border border-transparent px-5 py-2.5 text-sm font-semibold text-slate-300 transition hover:text-white"
+              >
+                Read the framework
               </Link>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Pipeline teaser */}
+      <section className="border-b border-slate-800 bg-slate-950">
+        <div className="mx-auto max-w-6xl px-6 py-10 lg:px-8">
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+            <div>
+              <p className="font-mono text-xs uppercase tracking-widest text-brand-400">Seeded user</p>
+              <h2 className="mt-1 font-heading text-xl font-semibold text-white">
+                launchweek.ai/u/dataadvantage — 19 projects, 7 launched
+              </h2>
+              <p className="mt-1 text-sm text-slate-400">
+                Live pipeline for an AI-native holding company. More users soon — join the directory waitlist.
+              </p>
+            </div>
+            <Link
+              href="/u/dataadvantage"
+              className="inline-flex items-center rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-slate-900 hover:bg-slate-200"
+            >
+              Open profile →
+            </Link>
           </div>
         </div>
       </section>
