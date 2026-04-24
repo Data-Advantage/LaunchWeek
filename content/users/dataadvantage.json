@@ -336,15 +336,16 @@
       "domain": "deckchat.ai",
       "stack": ["TBD"],
       "variant": "full_saas",
-      "stage": 3,
+      "stage": 4,
       "stageStatus": "on_track",
-      "enteredStageAt": "2026-03-20T00:00:00.000Z",
-      "ownerAgent": "CDO",
+      "enteredStageAt": "2026-04-24T00:00:00.000Z",
+      "ownerAgent": "CTO",
       "productMdExcerpt": "Sister product to STORYD focused on chat-based slide editing.",
       "stageHistory": [
         { "at": "2026-01-15T00:00:00.000Z", "fromStage": 0, "toStage": 1, "owner": "CPO" },
         { "at": "2026-02-20T00:00:00.000Z", "fromStage": 1, "toStage": 2, "owner": "CPO" },
-        { "at": "2026-03-20T00:00:00.000Z", "fromStage": 2, "toStage": 3, "owner": "CDO" }
+        { "at": "2026-03-20T00:00:00.000Z", "fromStage": 2, "toStage": 3, "owner": "CDO" },
+        { "at": "2026-04-24T00:00:00.000Z", "fromStage": 3, "toStage": 4, "owner": "CPO" }
       ]
     },
     {
