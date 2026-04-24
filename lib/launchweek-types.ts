@@ -78,6 +78,7 @@ export interface Project {
   variant: Variant;
   stage: Stage;
   stageStatus: StageStatus;
+  stageStatusReason?: string;
   enteredStageAt: string;
   stageHistory: StageEvent[];
   productMdExcerpt?: string;

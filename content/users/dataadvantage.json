@@ -355,7 +355,8 @@
       "stack": ["Node.js", "Parser API"],
       "variant": "full_saas",
       "stage": 5,
-      "stageStatus": "on_track",
+      "stageStatus": "blocked",
+      "stageStatusReason": "Deprioritized 2026-04-24: engineering capacity committed to storyd2 monetization push, Flixola video pivot, and LaunchWeek v2. Revisit when storyd2 ships paid tier.",
       "enteredStageAt": "2026-02-01T00:00:00.000Z",
       "ownerAgent": "CTO",
       "productMdExcerpt": "Developer-first API for programmatic PowerPoint — parse, edit, generate. Feeds STORYD and third-party tools.",
@@ -391,18 +392,20 @@
       "name": "MetricGen",
       "tagline": "Metrics database for SaaS operators — benchmarks + generators.",
       "domain": "metricgen.com",
-      "stack": ["Next.js"],
+      "stack": ["Next.js 16", "Convex", "Clerk", "Tailwind v4", "ECharts"],
       "variant": "full_saas",
-      "stage": 4,
+      "stage": 6,
       "stageStatus": "on_track",
-      "enteredStageAt": "2026-03-15T00:00:00.000Z",
+      "enteredStageAt": "2026-04-24T00:00:00.000Z",
       "ownerAgent": "CTO",
       "productMdExcerpt": "Canonical database of SaaS metrics with AI-assisted benchmarking, anomaly detection, and metric generators.",
       "stageHistory": [
         { "at": "2025-11-01T00:00:00.000Z", "fromStage": 0, "toStage": 1, "owner": "CPO" },
         { "at": "2025-12-10T00:00:00.000Z", "fromStage": 1, "toStage": 2, "owner": "CPO" },
         { "at": "2026-01-20T00:00:00.000Z", "fromStage": 2, "toStage": 3, "owner": "CDO" },
-        { "at": "2026-03-15T00:00:00.000Z", "fromStage": 3, "toStage": 4, "owner": "CTO" }
+        { "at": "2026-03-15T00:00:00.000Z", "fromStage": 3, "toStage": 4, "owner": "CTO" },
+        { "at": "2026-04-24T00:00:00.000Z", "fromStage": 4, "toStage": 5, "owner": "CTO" },
+        { "at": "2026-04-24T00:00:00.000Z", "fromStage": 5, "toStage": 6, "owner": "CTO" }
       ]
     },
     {
