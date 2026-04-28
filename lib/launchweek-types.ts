@@ -86,6 +86,8 @@ export interface Project {
   ownerAgent?: string;
   repoUrl?: string;
   domain?: string;
+  /** ISO date (YYYY-MM-DD or full ISO) for parked/deprioritized projects. The pipeline-sweep routine skips projects whose revisitAt is in the future. */
+  revisitAt?: string;
 }
 
 export interface PipelineSnapshot {
