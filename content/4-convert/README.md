@@ -32,6 +32,7 @@ Today you fix those problems.
 | 12 | [Land and Expand: Build the Expansion Revenue Engine](expansion-revenue.md) | 3-lever expansion model + QBR motion + annual contracts + expansion health score + NRR/GRR dashboard |
 | 13 | [Build an Interactive Product Demo That Closes Without a Sales Call](interactive-demo.md) | 4 demo formats + workflow selection + narrative annotations + 7-placement embed + funnel instrumentation + maintenance cadence |
 | 14 | [Run a Founder-Led B2B Sales Playbook (Without Hiring a Sales Team)](sales-playbook.md) | 5-stage motion + weekly prospecting habit + qualification rubric + discovery-informed demo + objection handling + when-to-hire criteria |
+| 15 | [Run Pricing Experiments That Move Revenue (Without Burning Trust)](pricing-experiments.md) | 5 experiment types + new-customer-only isolation + anchor experiments + per-tier price increases + quarterly review cadence |
 
 ### Agent Company Track
 
