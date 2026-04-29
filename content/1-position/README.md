@@ -26,6 +26,7 @@ Skip this day and you'll produce a lot of output that doesn't cohere. Do it righ
 | 6 | [Define Your Brand Voice](brand-voice.md) | Brand voice guide + do/don't examples |
 | 7 | [Write Your About / Founder Story Page](founder-story.md) | Origin story + founder bio + 3-5 opinionated beliefs |
 | 8 | [Build Your Pitch Deck](pitch-deck.md) | 10-slide pitch deck outline + key slides |
+| 9 | [Competitive Positioning: Frame the Category, Win the Decision](competitive-positioning.md) | Alternative map + Dunford-format positioning statement + comparison-page strategy + 5-person buyer test |
 
 ### Agent Company Track
 
