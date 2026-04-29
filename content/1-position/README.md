@@ -24,7 +24,8 @@ Skip this day and you'll produce a lot of output that doesn't cohere. Do it righ
 | 4 | [Pricing Strategy for Early-Stage SaaS](pricing-strategy.md) | Pricing tier structure + pricing page outline |
 | 5 | [Write Your Landing Page Copy](landing-page-copy.md) | Full landing page copy draft |
 | 6 | [Define Your Brand Voice](brand-voice.md) | Brand voice guide + do/don't examples |
-| 7 | [Build Your Pitch Deck](pitch-deck.md) | 10-slide pitch deck outline + key slides |
+| 7 | [Write Your About / Founder Story Page](founder-story.md) | Origin story + founder bio + 3-5 opinionated beliefs |
+| 8 | [Build Your Pitch Deck](pitch-deck.md) | 10-slide pitch deck outline + key slides |
 
 ### Agent Company Track
 
