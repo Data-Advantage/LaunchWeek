@@ -29,6 +29,7 @@ The distribution mindset shift: you're not broadcasting. You're contributing to 
 | 11 | [Run an Affiliate Program That Actually Drives Revenue](affiliate-program.md) | 2-tier program design + hand-recruited partner playbook + media kit + quarterly cadence |
 | 12 | [Run Influencer Marketing for B2B SaaS — Without the Cringe](influencer-marketing.md) | 5 placement types + 30-creator targeting + master brief pack + per-creator tracking + relationship discipline |
 | 13 | [Run Paid Ads Without Lighting Money on Fire](paid-ads.md) | 5-channel decision tree + Stripe-attributed tracking + creative/landing system + kill-switch test + scale-and-sunset workflow |
+| 14 | [Social DM Outreach: LinkedIn, X, and Reddit Without Being a Pest](social-dm-outreach.md) | Signal-based targeting + engagement-before-DM + conversation-first templates + 2-touch follow-up + DMs-per-customer tracking |
 
 ### Agent Company Track
 
