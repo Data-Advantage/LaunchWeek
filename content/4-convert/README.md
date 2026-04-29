@@ -26,7 +26,8 @@ Today you fix those problems.
 | 6 | [Convert Free Users to Paid](free-to-paid.md) | Free-tier design + behavior-triggered upgrade prompts + cap-hit experience |
 | 7 | [Run Sales Demo Calls That Close](sales-demo-calls.md) | Founder-led 30-min call structure + 8 objection responses + 24h follow-up |
 | 8 | [Raise Your Prices (Without Losing Customers)](raise-prices.md) | Decision framework + 60-90 day comms playbook + annual cadence |
-| 9 | [Reduce Churn Before It Starts](reduce-churn.md) | Early warning system for at-risk users |
+| 9 | [Run a Beta Program That Builds Loyalty](beta-program.md) | 20-50 participants + 4-week cadence + 30-50% beta-to-paid conversion |
+| 10 | [Reduce Churn Before It Starts](reduce-churn.md) | Early warning system for at-risk users |
 
 ### Agent Company Track
 
