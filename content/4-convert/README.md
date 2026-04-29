@@ -25,7 +25,8 @@ Today you fix those problems.
 | 5 | [Payment Integration (Stripe in 30 Min)](stripe-payments.md) | Stripe fully wired up |
 | 6 | [Convert Free Users to Paid](free-to-paid.md) | Free-tier design + behavior-triggered upgrade prompts + cap-hit experience |
 | 7 | [Run Sales Demo Calls That Close](sales-demo-calls.md) | Founder-led 30-min call structure + 8 objection responses + 24h follow-up |
-| 8 | [Reduce Churn Before It Starts](reduce-churn.md) | Early warning system for at-risk users |
+| 8 | [Raise Your Prices (Without Losing Customers)](raise-prices.md) | Decision framework + 60-90 day comms playbook + annual cadence |
+| 9 | [Reduce Churn Before It Starts](reduce-churn.md) | Early warning system for at-risk users |
 
 ### Agent Company Track
 
