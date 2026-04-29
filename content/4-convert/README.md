@@ -24,7 +24,8 @@ Today you fix those problems.
 | 4 | [Pricing Page Optimization](pricing-page.md) | Optimized pricing page with proof |
 | 5 | [Payment Integration (Stripe in 30 Min)](stripe-payments.md) | Stripe fully wired up |
 | 6 | [Convert Free Users to Paid](free-to-paid.md) | Free-tier design + behavior-triggered upgrade prompts + cap-hit experience |
-| 7 | [Reduce Churn Before It Starts](reduce-churn.md) | Early warning system for at-risk users |
+| 7 | [Run Sales Demo Calls That Close](sales-demo-calls.md) | Founder-led 30-min call structure + 8 objection responses + 24h follow-up |
+| 8 | [Reduce Churn Before It Starts](reduce-churn.md) | Early warning system for at-risk users |
 
 ### Agent Company Track
 
