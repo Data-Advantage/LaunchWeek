@@ -27,8 +27,9 @@ The goal is not to produce content for the sake of content. Every piece you crea
 | 2 | [Write Your First 5 Blog Posts with AI](blog-posts-with-ai.md) | 5 published posts |
 | 3 | [Social Content Calendar (30-Day Plan)](social-content-calendar.md) | 30-day calendar with drafted posts |
 | 4 | [Email Sequences That Convert](email-sequences.md) | Welcome + nurture + launch sequences |
-| 5 | [Content Repurposing Playbook](content-repurposing.md) | Repurposing system for every piece |
-| 6 | [AI-Optimized Content (AEO/GEO)](aeo-geo.md) | Structured content for AI answers |
+| 5 | [Start Your Founder Newsletter](founder-newsletter.md) | Owned-channel newsletter with weekly cadence + cross-pollination plan |
+| 6 | [Content Repurposing Playbook](content-repurposing.md) | Repurposing system for every piece |
+| 7 | [AI-Optimized Content (AEO/GEO)](aeo-geo.md) | Structured content for AI answers |
 
 ### Agent Company Track
 
