@@ -22,7 +22,8 @@ The distribution mindset shift: you're not broadcasting. You're contributing to 
 | 4 | [Community Seeding Strategy](community-seeding.md) | Community presence in 5-10 relevant spaces |
 | 5 | [Cold Outreach That Gets Replies](cold-outreach.md) | Targeted outreach list + 5 tested templates |
 | 6 | [Partnership and Cross-Promotion Playbook](partnerships.md) | 10 partnership targets + pitch templates |
-| 7 | [Leverage GitHub for Distribution](github-distribution.md) | Optimized README + open-source component plan |
+| 7 | [Podcast Guesting Playbook](podcast-guesting.md) | Target list + angle library + pitch templates + post-episode amplification |
+| 8 | [Leverage GitHub for Distribution](github-distribution.md) | Optimized README + open-source component plan |
 
 ### Agent Company Track
 
