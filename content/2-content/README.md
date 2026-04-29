@@ -30,6 +30,7 @@ The goal is not to produce content for the sake of content. Every piece you crea
 | 5 | [Start Your Founder Newsletter](founder-newsletter.md) | Owned-channel newsletter with weekly cadence + cross-pollination plan |
 | 6 | [Content Repurposing Playbook](content-repurposing.md) | Repurposing system for every piece |
 | 7 | [AI-Optimized Content (AEO/GEO)](aeo-geo.md) | Structured content for AI answers |
+| 8 | [Produce a Demo Video That Actually Sells the Product](demo-video.md) | Script-first 90s walkthrough + 30s hero + vertical cuts + distribution and analytics plan |
 
 ### Agent Company Track
 
