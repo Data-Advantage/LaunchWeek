@@ -24,7 +24,8 @@ The distribution mindset shift: you're not broadcasting. You're contributing to 
 | 6 | [Partnership and Cross-Promotion Playbook](partnerships.md) | 10 partnership targets + pitch templates |
 | 7 | [Podcast Guesting Playbook](podcast-guesting.md) | Target list + angle library + pitch templates + post-episode amplification |
 | 8 | [Newsletter Sponsorships Playbook](newsletter-sponsorships.md) | Target list + media kit + sponsor copy variants + per-slot attribution |
-| 9 | [Leverage GitHub for Distribution](github-distribution.md) | Optimized README + open-source component plan |
+| 9 | [YouTube Distribution Playbook](youtube-distribution.md) | Channel premise + 3-format mix + 90-minute production loop + per-video conversion funnel |
+| 10 | [Leverage GitHub for Distribution](github-distribution.md) | Optimized README + open-source component plan |
 
 ### Agent Company Track
 
