@@ -23,7 +23,8 @@ The distribution mindset shift: you're not broadcasting. You're contributing to 
 | 5 | [Cold Outreach That Gets Replies](cold-outreach.md) | Targeted outreach list + 5 tested templates |
 | 6 | [Partnership and Cross-Promotion Playbook](partnerships.md) | 10 partnership targets + pitch templates |
 | 7 | [Podcast Guesting Playbook](podcast-guesting.md) | Target list + angle library + pitch templates + post-episode amplification |
-| 8 | [Leverage GitHub for Distribution](github-distribution.md) | Optimized README + open-source component plan |
+| 8 | [Newsletter Sponsorships Playbook](newsletter-sponsorships.md) | Target list + media kit + sponsor copy variants + per-slot attribution |
+| 9 | [Leverage GitHub for Distribution](github-distribution.md) | Optimized README + open-source component plan |
 
 ### Agent Company Track
 
