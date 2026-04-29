@@ -27,7 +27,8 @@ Today you fix those problems.
 | 7 | [Run Sales Demo Calls That Close](sales-demo-calls.md) | Founder-led 30-min call structure + 8 objection responses + 24h follow-up |
 | 8 | [Raise Your Prices (Without Losing Customers)](raise-prices.md) | Decision framework + 60-90 day comms playbook + annual cadence |
 | 9 | [Run a Beta Program That Builds Loyalty](beta-program.md) | 20-50 participants + 4-week cadence + 30-50% beta-to-paid conversion |
-| 10 | [Reduce Churn Before It Starts](reduce-churn.md) | Early warning system for at-risk users |
+| 10 | [Build a Customer Reference Program](customer-references.md) | 3-tier ask system + case study interview + reference-call management |
+| 11 | [Reduce Churn Before It Starts](reduce-churn.md) | Early warning system for at-risk users |
 
 ### Agent Company Track
 
