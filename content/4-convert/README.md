@@ -30,6 +30,7 @@ Today you fix those problems.
 | 10 | [Build a Customer Reference Program](customer-references.md) | 3-tier ask system + case study interview + reference-call management |
 | 11 | [Reduce Churn Before It Starts](reduce-churn.md) | Early warning system for at-risk users |
 | 12 | [Land and Expand: Build the Expansion Revenue Engine](expansion-revenue.md) | 3-lever expansion model + QBR motion + annual contracts + expansion health score + NRR/GRR dashboard |
+| 13 | [Build an Interactive Product Demo That Closes Without a Sales Call](interactive-demo.md) | 4 demo formats + workflow selection + narrative annotations + 7-placement embed + funnel instrumentation + maintenance cadence |
 
 ### Agent Company Track
 
