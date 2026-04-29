@@ -31,6 +31,7 @@ The goal is not to produce content for the sake of content. Every piece you crea
 | 6 | [Content Repurposing Playbook](content-repurposing.md) | Repurposing system for every piece |
 | 7 | [AI-Optimized Content (AEO/GEO)](aeo-geo.md) | Structured content for AI answers |
 | 8 | [Produce a Demo Video That Actually Sells the Product](demo-video.md) | Script-first 90s walkthrough + 30s hero + vertical cuts + distribution and analytics plan |
+| 9 | [Run Webinars That Generate Pipeline (Not Just Attendees)](webinars.md) | Topic + title + registration page + 30-min content design + 5-touch follow-up + 12-output repurposing |
 
 ### Agent Company Track
 
