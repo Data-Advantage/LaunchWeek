@@ -22,7 +22,8 @@ The founder mistake is treating launch as a one-day event. The best launches are
 | 4 | [Reddit Launch Strategy](reddit.md) | Subreddit selection + warming + post format that actually converts |
 | 5 | [Press and Creator Outreach](press-outreach.md) | Media list + personalized pitch templates |
 | 6 | [Launch Announcement Templates](launch-announcements.md) | Ready-to-send templates for every channel |
-| 7 | [Post-Launch: Week 1 Review](post-launch-review.md) | Metrics review and transition to growth mode |
+| 7 | [Find Your First 10 Paying Customers](first-10-customers.md) | The 5-channel playbook + founder-led sales pitch + pricing for early customers |
+| 8 | [Post-Launch: Week 1 Review](post-launch-review.md) | Metrics review and transition to growth mode |
 
 ### Agent Company Track
 
