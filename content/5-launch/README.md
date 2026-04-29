@@ -19,9 +19,10 @@ The founder mistake is treating launch as a one-day event. The best launches are
 | 1 | [Launch Day Checklist](launch-checklist.md) | The step-by-step launch playbook |
 | 2 | [Indie Hackers and Community Launch](indie-hackers.md) | Community launch strategy across 5 platforms |
 | 3 | [Hacker News Launch Strategy](hacker-news.md) | Show HN submission + comment strategy |
-| 4 | [Press and Creator Outreach](press-outreach.md) | Media list + personalized pitch templates |
-| 5 | [Launch Announcement Templates](launch-announcements.md) | Ready-to-send templates for every channel |
-| 6 | [Post-Launch: Week 1 Review](post-launch-review.md) | Metrics review and transition to growth mode |
+| 4 | [Reddit Launch Strategy](reddit.md) | Subreddit selection + warming + post format that actually converts |
+| 5 | [Press and Creator Outreach](press-outreach.md) | Media list + personalized pitch templates |
+| 6 | [Launch Announcement Templates](launch-announcements.md) | Ready-to-send templates for every channel |
+| 7 | [Post-Launch: Week 1 Review](post-launch-review.md) | Metrics review and transition to growth mode |
 
 ### Agent Company Track
 
