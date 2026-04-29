@@ -25,6 +25,7 @@ The founder mistake is treating launch as a one-day event. The best launches are
 | 7 | [Find Your First 10 Paying Customers](first-10-customers.md) | The 5-channel playbook + founder-led sales pitch + pricing for early customers |
 | 8 | [AppSumo and Lifetime Deals](appsumo-lifetime-deals.md) | Should-you-run-one decision + tier structure + 30-day-spike playbook |
 | 9 | [Post-Launch: Week 1 Review](post-launch-review.md) | Metrics review and transition to growth mode |
+| 10 | [Run Your First 90 Days Post-Launch](first-90-days.md) | 3-phase plan (Foundation / Acceleration / Compounding) + Day 90 quarterly retro |
 
 ### Agent Company Track
 
