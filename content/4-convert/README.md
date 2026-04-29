@@ -31,6 +31,7 @@ Today you fix those problems.
 | 11 | [Reduce Churn Before It Starts](reduce-churn.md) | Early warning system for at-risk users |
 | 12 | [Land and Expand: Build the Expansion Revenue Engine](expansion-revenue.md) | 3-lever expansion model + QBR motion + annual contracts + expansion health score + NRR/GRR dashboard |
 | 13 | [Build an Interactive Product Demo That Closes Without a Sales Call](interactive-demo.md) | 4 demo formats + workflow selection + narrative annotations + 7-placement embed + funnel instrumentation + maintenance cadence |
+| 14 | [Run a Founder-Led B2B Sales Playbook (Without Hiring a Sales Team)](sales-playbook.md) | 5-stage motion + weekly prospecting habit + qualification rubric + discovery-informed demo + objection handling + when-to-hire criteria |
 
 ### Agent Company Track
 
