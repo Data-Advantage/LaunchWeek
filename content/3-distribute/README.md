@@ -16,12 +16,13 @@ The distribution mindset shift: you're not broadcasting. You're contributing to 
 
 | # | Guide | What You'll Build |
 |---|-------|------------------|
-| 1 | [Social Media Setup and Optimization](social-media-setup.md) | Optimized profiles on key platforms |
-| 2 | [Building in Public](building-in-public.md) | A 12-month content engine that compounds — narrative spine, cadence, format playbook |
-| 3 | [Community Seeding Strategy](community-seeding.md) | Community presence in 5-10 relevant spaces |
-| 4 | [Cold Outreach That Gets Replies](cold-outreach.md) | Targeted outreach list + 5 tested templates |
-| 5 | [Partnership and Cross-Promotion Playbook](partnerships.md) | 10 partnership targets + pitch templates |
-| 6 | [Leverage GitHub for Distribution](github-distribution.md) | Optimized README + open-source component plan |
+| 1 | [Pick Your First Three Distribution Channels](channel-selection.md) | Scored 14-channel matrix → a 3-channel bullseye with kill criteria |
+| 2 | [Social Media Setup and Optimization](social-media-setup.md) | Optimized profiles on key platforms |
+| 3 | [Building in Public](building-in-public.md) | A 12-month content engine that compounds — narrative spine, cadence, format playbook |
+| 4 | [Community Seeding Strategy](community-seeding.md) | Community presence in 5-10 relevant spaces |
+| 5 | [Cold Outreach That Gets Replies](cold-outreach.md) | Targeted outreach list + 5 tested templates |
+| 6 | [Partnership and Cross-Promotion Playbook](partnerships.md) | 10 partnership targets + pitch templates |
+| 7 | [Leverage GitHub for Distribution](github-distribution.md) | Optimized README + open-source component plan |
 
 ### Agent Company Track
 
