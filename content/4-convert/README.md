@@ -23,7 +23,8 @@ Today you fix those problems.
 | 3 | [Onboarding Flow Design](onboarding-flow.md) | Onboarding sequence from signup to value |
 | 4 | [Pricing Page Optimization](pricing-page.md) | Optimized pricing page with proof |
 | 5 | [Payment Integration (Stripe in 30 Min)](stripe-payments.md) | Stripe fully wired up |
-| 6 | [Reduce Churn Before It Starts](reduce-churn.md) | Early warning system for at-risk users |
+| 6 | [Convert Free Users to Paid](free-to-paid.md) | Free-tier design + behavior-triggered upgrade prompts + cap-hit experience |
+| 7 | [Reduce Churn Before It Starts](reduce-churn.md) | Early warning system for at-risk users |
 
 ### Agent Company Track
 
