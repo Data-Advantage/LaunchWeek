@@ -27,6 +27,7 @@ The distribution mindset shift: you're not broadcasting. You're contributing to 
 | 9 | [YouTube Distribution Playbook](youtube-distribution.md) | Channel premise + 3-format mix + 90-minute production loop + per-video conversion funnel |
 | 10 | [Leverage GitHub for Distribution](github-distribution.md) | Optimized README + open-source component plan |
 | 11 | [Run an Affiliate Program That Actually Drives Revenue](affiliate-program.md) | 2-tier program design + hand-recruited partner playbook + media kit + quarterly cadence |
+| 12 | [Run Influencer Marketing for B2B SaaS — Without the Cringe](influencer-marketing.md) | 5 placement types + 30-creator targeting + master brief pack + per-creator tracking + relationship discipline |
 
 ### Agent Company Track
 
