@@ -19,11 +19,12 @@ Skip this day and you'll produce a lot of output that doesn't cohere. Do it righ
 | # | Guide | What You'll Build |
 |---|-------|------------------|
 | 1 | [Run Customer Discovery Interviews](customer-discovery-interviews.md) | 15–25 interviews + voice-of-customer synthesis doc that feeds every other Day 1 artifact |
-| 2 | [Craft Your Value Proposition](value-proposition.md) | Value prop statement + headline/CTA combos |
-| 3 | [Pricing Strategy for Early-Stage SaaS](pricing-strategy.md) | Pricing tier structure + pricing page outline |
-| 4 | [Write Your Landing Page Copy](landing-page-copy.md) | Full landing page copy draft |
-| 5 | [Define Your Brand Voice](brand-voice.md) | Brand voice guide + do/don't examples |
-| 6 | [Build Your Pitch Deck](pitch-deck.md) | 10-slide pitch deck outline + key slides |
+| 2 | [Name Your Product (And Live With It)](product-naming.md) | Locked-in product name + domain + handles + trademark filing in 7 days |
+| 3 | [Craft Your Value Proposition](value-proposition.md) | Value prop statement + headline/CTA combos |
+| 4 | [Pricing Strategy for Early-Stage SaaS](pricing-strategy.md) | Pricing tier structure + pricing page outline |
+| 5 | [Write Your Landing Page Copy](landing-page-copy.md) | Full landing page copy draft |
+| 6 | [Define Your Brand Voice](brand-voice.md) | Brand voice guide + do/don't examples |
+| 7 | [Build Your Pitch Deck](pitch-deck.md) | 10-slide pitch deck outline + key slides |
 
 ### Agent Company Track
 
