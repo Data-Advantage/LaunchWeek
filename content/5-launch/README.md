@@ -27,6 +27,7 @@ The founder mistake is treating launch as a one-day event. The best launches are
 | 9 | [Post-Launch: Week 1 Review](post-launch-review.md) | Metrics review and transition to growth mode |
 | 10 | [Run Your First 90 Days Post-Launch](first-90-days.md) | 3-phase plan (Foundation / Acceleration / Compounding) + Day 90 quarterly retro |
 | 11 | [Launch at a Conference Without Burning $20K and a Week](conference-launches.md) | 5-surface conference plan + 1:1 pre-booking + launch-moment design + 4-week follow-up |
+| 12 | [Pre-Launch Revenue: Get Paid Before You Ship](pre-launch-revenue.md) | 5 pre-launch models + offer design + founding-customer sales + slippage handling + post-ship retention |
 
 ### Agent Company Track
 
