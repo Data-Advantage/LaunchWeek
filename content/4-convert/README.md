@@ -29,6 +29,7 @@ Today you fix those problems.
 | 9 | [Run a Beta Program That Builds Loyalty](beta-program.md) | 20-50 participants + 4-week cadence + 30-50% beta-to-paid conversion |
 | 10 | [Build a Customer Reference Program](customer-references.md) | 3-tier ask system + case study interview + reference-call management |
 | 11 | [Reduce Churn Before It Starts](reduce-churn.md) | Early warning system for at-risk users |
+| 12 | [Land and Expand: Build the Expansion Revenue Engine](expansion-revenue.md) | 3-lever expansion model + QBR motion + annual contracts + expansion health score + NRR/GRR dashboard |
 
 ### Agent Company Track
 
