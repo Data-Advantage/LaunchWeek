@@ -377,16 +377,17 @@
       "domain": "pptx.gallery",
       "stack": ["Next.js"],
       "variant": "reference",
-      "stage": 7,
+      "stage": 8,
       "stageStatus": "on_track",
-      "enteredStageAt": "2026-04-10T00:00:00.000Z",
+      "enteredStageAt": "2026-05-01T00:00:00.000Z",
       "ownerAgent": "CMO",
       "productMdExcerpt": "Gallery of AI-generated slide decks to showcase what's possible and feed top-of-funnel for STORYD and DeckChat.",
       "stageHistory": [
         { "at": "2026-01-15T00:00:00.000Z", "fromStage": 0, "toStage": 1, "owner": "CPO" },
         { "at": "2026-02-05T00:00:00.000Z", "fromStage": 1, "toStage": 2, "owner": "CPO" },
         { "at": "2026-02-25T00:00:00.000Z", "fromStage": 2, "toStage": 3, "owner": "CDO" },
-        { "at": "2026-04-10T00:00:00.000Z", "fromStage": 3, "toStage": 7, "owner": "CMO" }
+        { "at": "2026-04-10T00:00:00.000Z", "fromStage": 3, "toStage": 7, "owner": "CMO" },
+        { "at": "2026-05-01T00:00:00.000Z", "fromStage": 7, "toStage": 8, "owner": "CMO", "notes": "Stage 7 (Content & SEO) deliverables shipped: STORYD CTA placement (DAT-3415–DAT-3419) and free-trial messaging kit (DAT-3511/DAT-3518/DAT-3533/DAT-3540/DAT-3547) merged. Remaining funnel-instrumentation work (DAT-3417/DAT-3423) is the analytics/go-decision gate, which lives in Stage 8 (Pre-Launch) per LaunchWeek stage definitions." }
       ]
     },
     {
