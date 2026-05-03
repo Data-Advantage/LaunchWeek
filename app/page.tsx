@@ -1,5 +1,12 @@
+import type { Metadata } from "next";
 import { SECTIONS } from "@/lib/markdown";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/",
+  },
+};
 
 const DAY_META: Record<number, { icon: string; description: string; agent: string }> = {
   1: {

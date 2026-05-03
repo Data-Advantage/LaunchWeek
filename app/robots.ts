@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://launchweek.ai/sitemap.xml',
+    sitemap: 'https://www.launchweek.ai/sitemap.xml',
   }
 }

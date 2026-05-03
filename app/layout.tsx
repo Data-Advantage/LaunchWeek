@@ -17,7 +17,10 @@ const lexend = Lexend({
   display: "swap",
 });
 
+const SITE_URL = "https://www.launchweek.ai";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "LaunchWeek.ai — Build Your Agent Company in 5 Days",
   description:
     "The free playbook that teaches founders to build an AI agent company — not just launch a product. 33 guides, 5 templates, and a running company by Day 5.",
@@ -25,7 +28,7 @@ export const metadata: Metadata = {
     title: "LaunchWeek.ai — Build Your Agent Company in 5 Days",
     description:
       "33 free guides + 5 agent templates. Launch your SaaS and build the AI team that keeps it running.",
-    url: "https://launchweek.ai",
+    url: SITE_URL,
     siteName: "LaunchWeek.ai",
     type: "website",
   },

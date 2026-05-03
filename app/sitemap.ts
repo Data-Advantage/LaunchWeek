@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import { SECTIONS, getSectionTopics } from '@/lib/markdown'
 import { TEMPLATES } from '@/lib/templates'
 
-const BASE_URL = 'https://launchweek.ai'
+const BASE_URL = 'https://www.launchweek.ai'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date()
