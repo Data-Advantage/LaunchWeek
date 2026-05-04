@@ -249,8 +249,8 @@
       "slug": "vibeweek",
       "name": "VibeWeek",
       "tagline": "7-day guided challenge for vibe-coding your first real app.",
-      "url": "https://vibeweek.com",
-      "domain": "vibeweek.com",
+      "url": "https://vibeweek.ai",
+      "domain": "vibeweek.ai",
       "stack": ["Next.js"],
       "variant": "content_site",
       "stage": 9,
@@ -274,7 +274,7 @@
           { "label": "Challenge length", "value": "7 days" },
           { "label": "Stack", "value": "Cursor + Next.js" }
         ],
-        "linkUrl": "https://vibeweek.com",
+        "linkUrl": "https://vibeweek.ai",
         "linkLabel": "Visit VibeWeek"
       }
     },
