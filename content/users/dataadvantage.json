@@ -418,9 +418,10 @@
       "domain": "flixola.ai",
       "stack": ["Next.js", "Convex", "Clerk", "Video"],
       "variant": "full_saas",
-      "stage": 5,
+      "stage": 6,
       "stageStatus": "on_track",
-      "enteredStageAt": "2026-03-25T00:00:00.000Z",
+      "stageStatusReason": "Advanced 2026-05-06 via DAT-3905: Stage 5 MVP build is complete enough for public-launch hardening. Stage 6 hardening follows the board-gated Flixola Sprint 3 plan in DAT-3578 r2; target Stage 7 handoff is 2026-05-20 if board approval lands this week.",
+      "enteredStageAt": "2026-05-06T00:00:00.000Z",
       "ownerAgent": "CTO",
       "productMdExcerpt": "Video-first creative SaaS using the same credit + freemium model proven on Pixola.",
       "stageHistory": [
@@ -428,7 +429,8 @@
         { "at": "2025-12-10T00:00:00.000Z", "fromStage": 1, "toStage": 2, "owner": "CPO" },
         { "at": "2026-01-25T00:00:00.000Z", "fromStage": 2, "toStage": 3, "owner": "CDO" },
         { "at": "2026-02-20T00:00:00.000Z", "fromStage": 3, "toStage": 4, "owner": "CTO" },
-        { "at": "2026-03-25T00:00:00.000Z", "fromStage": 4, "toStage": 5, "owner": "CTO" }
+        { "at": "2026-03-25T00:00:00.000Z", "fromStage": 4, "toStage": 5, "owner": "CTO" },
+        { "at": "2026-05-06T00:00:00.000Z", "fromStage": 5, "toStage": 6, "owner": "CTO" }
       ]
     },
     {
