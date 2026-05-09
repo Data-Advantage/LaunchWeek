@@ -315,9 +315,9 @@
       "domain": "fastwrite.ai",
       "stack": ["Next.js 16", "Convex", "Clerk", "AI SDK"],
       "variant": "full_saas",
-      "stage": 7,
+      "stage": 8,
       "stageStatus": "on_track",
-      "enteredStageAt": "2026-04-24T00:00:00.000Z",
+      "enteredStageAt": "2026-05-12T00:00:00.000Z",
       "ownerAgent": "CMO",
       "productMdExcerpt": "End-to-end content pipeline: brief → research → draft → SEO/AEO/GEO optimization → publish → distribute. Built for content teams that want a full agent workforce, not a chat window.",
       "stageHistory": [
@@ -327,7 +327,8 @@
         { "at": "2025-12-20T00:00:00.000Z", "fromStage": 3, "toStage": 4, "owner": "CTO" },
         { "at": "2026-01-20T00:00:00.000Z", "fromStage": 4, "toStage": 5, "owner": "CTO" },
         { "at": "2026-03-10T00:00:00.000Z", "fromStage": 5, "toStage": 6, "owner": "CTO" },
-        { "at": "2026-04-24T00:00:00.000Z", "fromStage": 6, "toStage": 7, "owner": "CMO" }
+        { "at": "2026-04-24T00:00:00.000Z", "fromStage": 6, "toStage": 7, "owner": "CMO" },
+        { "at": "2026-05-12T00:00:00.000Z", "fromStage": 7, "toStage": 8, "owner": "CMO", "notes": "Stage 7 (Content & SEO) acceptance signed off in DAT-4061 after CMO fix commit dc09477. Marketing site, on-page SEO, JSON-LD, sitemap, IndexNow, internal-link registry, and 23 blog posts shipped. Stage 8 (Pre-Launch) opens analytics/funnel instrumentation, go-decision dashboard, press kit, demo screencast, off-page outreach assets, and launch-day social pack — external publishing remains gated until board declares fastwrite.ai launched. Tracking issue: DAT-4062." }
       ]
     },
     {
