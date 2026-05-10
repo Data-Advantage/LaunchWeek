@@ -235,7 +235,9 @@
       "variant": "content_site",
       "stage": 7,
       "stageStatus": "on_track",
+      "stageStatusReason": "Intentionally held at Stage 7 while v2 multi-tenant pipeline platform plan is in board review. Strategy: DAT-2237. Phase 7 (auth + Postgres + self-serve onboarding) plan: DAT-2267. Will advance to Stage 8 once Phase 7 ships analytics/funnel instrumentation.",
       "enteredStageAt": "2026-04-23T00:00:00.000Z",
+      "revisitAt": "2026-06-15",
       "ownerAgent": "CPO",
       "productMdExcerpt": "The public pipeline and directory for AI-native founders shipping SaaS. Watch — and copy — the plays.",
       "stageHistory": [
