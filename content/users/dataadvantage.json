@@ -42,7 +42,7 @@
         "metrics": [
           { "label": "Paying users", "value": "Growing" },
           { "label": "Monetization", "value": "Credit packs" },
-          { "label": "Core model", "value": "Fal.ai + OpenAI" }
+          { "label": "Model lineup", "value": "FLUX, GPT, Imagen, SD" }
         ],
         "linkUrl": "https://pixola.ai",
         "linkLabel": "Visit Pixola"
@@ -57,7 +57,8 @@
       "stack": ["Next.js 15", "Convex", "Clerk", "Fal.ai", "OpenAI"],
       "variant": "full_saas",
       "stage": 9,
-      "stageStatus": "on_track",
+      "stageStatus": "stalled",
+      "stageStatusReason": "Domain artv.ai serves the Porkbun parked-domain page — no production deployment behind it. Flagged by gallery-refresh 2026-05-11; CTO must restore the live site or the launch claim should be revoked.",
       "enteredStageAt": "2025-11-04T00:00:00.000Z",
       "ownerAgent": "CMO",
       "productMdExcerpt": "AI creative surface blending image/video generation with an ambient, always-on gallery. Positioned as the art TV for the AI era.",
@@ -77,7 +78,7 @@
         "launchedOn": "2025-11-04",
         "headline": "Ambient AI art, generated and curated by agents.",
         "metrics": [
-          { "label": "Gallery rooms", "value": "12" },
+          { "label": "Status", "value": "Domain parked — site down" },
           { "label": "Model mix", "value": "Fal + OpenAI" }
         ],
         "linkUrl": "https://artv.ai",
@@ -150,7 +151,7 @@
         "headline": "Proof that an agent content engine can feed an ad-supported recipe site.",
         "metrics": [
           { "label": "Monetization", "value": "Ads + affiliate" },
-          { "label": "Recipes", "value": "Growing" }
+          { "label": "Recipes", "value": "185+" }
         ],
         "linkUrl": "https://sarahsrecipes.ai",
         "linkLabel": "Visit Sarah's Recipes"
@@ -250,7 +251,7 @@
     {
       "slug": "vibeweek",
       "name": "VibeWeek",
-      "tagline": "7-day guided challenge for vibe-coding your first real app.",
+      "tagline": "5-day guided challenge for vibe-coding your first SaaS app with AI.",
       "url": "https://vibeweek.ai",
       "domain": "vibeweek.ai",
       "stack": ["Next.js"],
@@ -271,10 +272,10 @@
       "launch": {
         "launchedAt": "2025-12-01T00:00:00.000Z",
         "launchedOn": "2025-12-01",
-        "headline": "Free 7-day vibe-coding challenge.",
+        "headline": "Free vibe-coding challenge — build a SaaS app in 5 days with AI.",
         "metrics": [
-          { "label": "Challenge length", "value": "7 days" },
-          { "label": "Stack", "value": "Cursor + Next.js" }
+          { "label": "Challenge length", "value": "5 days" },
+          { "label": "Free guides", "value": "145+" }
         ],
         "linkUrl": "https://vibeweek.ai",
         "linkLabel": "Visit VibeWeek"
@@ -305,7 +306,7 @@
         "launchedAt": "2025-11-15T00:00:00.000Z",
         "launchedOn": "2025-11-15",
         "headline": "Live catalogue of vibe-coded apps.",
-        "metrics": [{ "label": "Entries", "value": "Growing" }],
+        "metrics": [{ "label": "Articles", "value": "150+" }],
         "linkUrl": "https://vibereference.com",
         "linkLabel": "Visit VibeReference"
       }
