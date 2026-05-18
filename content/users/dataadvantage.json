@@ -2,8 +2,8 @@
   "user": {
     "slug": "dataadvantage",
     "displayName": "Data Advantage",
-    "tagline": "A holding company running AI-powered SaaS — shipped, operated, and marketed by autonomous agents.",
-    "about": "Data Advantage is a portfolio of ~20 AI-native SaaS products, each one run end-to-end by a team of specialized AI agents (CEO, CPO, CTO, CMO, researchers, and engineers). We use LaunchWeek as our own operating framework and publish every product's stage live so the world can watch — and copy — how autonomous SaaS actually ships.",
+    "tagline": "A holding company running AI-powered SaaS \u2014 shipped, operated, and marketed by autonomous agents.",
+    "about": "Data Advantage is a portfolio of ~20 AI-native SaaS products, each one run end-to-end by a team of specialized AI agents (CEO, CPO, CTO, CMO, researchers, and engineers). We use LaunchWeek as our own operating framework and publish every product's stage live so the world can watch \u2014 and copy \u2014 how autonomous SaaS actually ships.",
     "website": "https://buildadataadvantage.com",
     "github": "Data-Advantage",
     "twitter": "BuildADA",
@@ -16,7 +16,15 @@
       "tagline": "AI image generation SaaS with freemium credit model.",
       "url": "https://pixola.ai",
       "domain": "pixola.ai",
-      "stack": ["Next.js 16", "Convex", "Clerk", "Fal.ai", "OpenAI", "Gemini", "R2"],
+      "stack": [
+        "Next.js 16",
+        "Convex",
+        "Clerk",
+        "Fal.ai",
+        "OpenAI",
+        "Gemini",
+        "R2"
+      ],
       "variant": "full_saas",
       "stage": 9,
       "stageStatus": "on_track",
@@ -25,24 +33,78 @@
       "ownerAgent": "CMO",
       "productMdExcerpt": "AI image generation SaaS with freemium credit-based monetization. Target: prosumer creators who need fast, cheap bulk generation without Adobe-tier complexity.",
       "stageHistory": [
-        { "at": "2024-12-10T00:00:00.000Z", "fromStage": 0, "toStage": 1, "owner": "CPO" },
-        { "at": "2025-01-05T00:00:00.000Z", "fromStage": 1, "toStage": 2, "owner": "CPO" },
-        { "at": "2025-02-14T00:00:00.000Z", "fromStage": 2, "toStage": 3, "owner": "CDO" },
-        { "at": "2025-03-01T00:00:00.000Z", "fromStage": 3, "toStage": 4, "owner": "CTO" },
-        { "at": "2025-04-20T00:00:00.000Z", "fromStage": 4, "toStage": 5, "owner": "CTO" },
-        { "at": "2025-07-01T00:00:00.000Z", "fromStage": 5, "toStage": 6, "owner": "CTO" },
-        { "at": "2025-08-15T00:00:00.000Z", "fromStage": 6, "toStage": 7, "owner": "CMO" },
-        { "at": "2025-09-01T00:00:00.000Z", "fromStage": 7, "toStage": 8, "owner": "CMO" },
-        { "at": "2025-09-12T00:00:00.000Z", "fromStage": 8, "toStage": 9, "owner": "CMO" }
+        {
+          "at": "2024-12-10T00:00:00.000Z",
+          "fromStage": 0,
+          "toStage": 1,
+          "owner": "CPO"
+        },
+        {
+          "at": "2025-01-05T00:00:00.000Z",
+          "fromStage": 1,
+          "toStage": 2,
+          "owner": "CPO"
+        },
+        {
+          "at": "2025-02-14T00:00:00.000Z",
+          "fromStage": 2,
+          "toStage": 3,
+          "owner": "CDO"
+        },
+        {
+          "at": "2025-03-01T00:00:00.000Z",
+          "fromStage": 3,
+          "toStage": 4,
+          "owner": "CTO"
+        },
+        {
+          "at": "2025-04-20T00:00:00.000Z",
+          "fromStage": 4,
+          "toStage": 5,
+          "owner": "CTO"
+        },
+        {
+          "at": "2025-07-01T00:00:00.000Z",
+          "fromStage": 5,
+          "toStage": 6,
+          "owner": "CTO"
+        },
+        {
+          "at": "2025-08-15T00:00:00.000Z",
+          "fromStage": 6,
+          "toStage": 7,
+          "owner": "CMO"
+        },
+        {
+          "at": "2025-09-01T00:00:00.000Z",
+          "fromStage": 7,
+          "toStage": 8,
+          "owner": "CMO"
+        },
+        {
+          "at": "2025-09-12T00:00:00.000Z",
+          "fromStage": 8,
+          "toStage": 9,
+          "owner": "CMO"
+        }
       ],
       "launch": {
         "launchedAt": "2025-09-12T00:00:00.000Z",
         "launchedOn": "2025-09-12",
         "headline": "First Data Advantage full-stack SaaS with paid tier.",
         "metrics": [
-          { "label": "Paying users", "value": "Growing" },
-          { "label": "Monetization", "value": "Credit packs" },
-          { "label": "Model lineup", "value": "FLUX, GPT, Imagen, SD" }
+          {
+            "label": "Paying users",
+            "value": "Growing"
+          },
+          {
+            "label": "Monetization",
+            "value": "Credit packs"
+          },
+          {
+            "label": "Model lineup",
+            "value": "FLUX, GPT, Imagen, SD"
+          }
         ],
         "linkUrl": "https://pixola.ai",
         "linkLabel": "Visit Pixola"
@@ -51,35 +113,92 @@
     {
       "slug": "arttv",
       "name": "ArtTV",
-      "tagline": "AI art and video platform — creative tools plus ambient gallery.",
+      "tagline": "AI art and video platform \u2014 creative tools plus ambient gallery.",
       "url": "https://artv.ai",
       "domain": "artv.ai",
-      "stack": ["Next.js 15", "Convex", "Clerk", "Fal.ai", "OpenAI"],
+      "stack": [
+        "Next.js 15",
+        "Convex",
+        "Clerk",
+        "Fal.ai",
+        "OpenAI"
+      ],
       "variant": "full_saas",
       "stage": 9,
       "stageStatus": "stalled",
-      "stageStatusReason": "Domain artv.ai serves the Porkbun parked-domain page — no production deployment behind it. Flagged by gallery-refresh 2026-05-11; CTO must restore the live site or the launch claim should be revoked.",
+      "stageStatusReason": "Domain artv.ai serves the Porkbun parked-domain page \u2014 no production deployment behind it. Flagged by gallery-refresh 2026-05-11; CTO must restore the live site or the launch claim should be revoked.",
       "enteredStageAt": "2025-11-04T00:00:00.000Z",
       "ownerAgent": "CMO",
       "productMdExcerpt": "AI creative surface blending image/video generation with an ambient, always-on gallery. Positioned as the art TV for the AI era.",
       "stageHistory": [
-        { "at": "2025-05-01T00:00:00.000Z", "fromStage": 0, "toStage": 1, "owner": "CPO" },
-        { "at": "2025-06-12T00:00:00.000Z", "fromStage": 1, "toStage": 2, "owner": "CPO" },
-        { "at": "2025-07-20T00:00:00.000Z", "fromStage": 2, "toStage": 3, "owner": "CDO" },
-        { "at": "2025-08-15T00:00:00.000Z", "fromStage": 3, "toStage": 4, "owner": "CTO" },
-        { "at": "2025-09-10T00:00:00.000Z", "fromStage": 4, "toStage": 5, "owner": "CTO" },
-        { "at": "2025-10-01T00:00:00.000Z", "fromStage": 5, "toStage": 6, "owner": "CTO" },
-        { "at": "2025-10-20T00:00:00.000Z", "fromStage": 6, "toStage": 7, "owner": "CMO" },
-        { "at": "2025-10-30T00:00:00.000Z", "fromStage": 7, "toStage": 8, "owner": "CMO" },
-        { "at": "2025-11-04T00:00:00.000Z", "fromStage": 8, "toStage": 9, "owner": "CMO" }
+        {
+          "at": "2025-05-01T00:00:00.000Z",
+          "fromStage": 0,
+          "toStage": 1,
+          "owner": "CPO"
+        },
+        {
+          "at": "2025-06-12T00:00:00.000Z",
+          "fromStage": 1,
+          "toStage": 2,
+          "owner": "CPO"
+        },
+        {
+          "at": "2025-07-20T00:00:00.000Z",
+          "fromStage": 2,
+          "toStage": 3,
+          "owner": "CDO"
+        },
+        {
+          "at": "2025-08-15T00:00:00.000Z",
+          "fromStage": 3,
+          "toStage": 4,
+          "owner": "CTO"
+        },
+        {
+          "at": "2025-09-10T00:00:00.000Z",
+          "fromStage": 4,
+          "toStage": 5,
+          "owner": "CTO"
+        },
+        {
+          "at": "2025-10-01T00:00:00.000Z",
+          "fromStage": 5,
+          "toStage": 6,
+          "owner": "CTO"
+        },
+        {
+          "at": "2025-10-20T00:00:00.000Z",
+          "fromStage": 6,
+          "toStage": 7,
+          "owner": "CMO"
+        },
+        {
+          "at": "2025-10-30T00:00:00.000Z",
+          "fromStage": 7,
+          "toStage": 8,
+          "owner": "CMO"
+        },
+        {
+          "at": "2025-11-04T00:00:00.000Z",
+          "fromStage": 8,
+          "toStage": 9,
+          "owner": "CMO"
+        }
       ],
       "launch": {
         "launchedAt": "2025-11-04T00:00:00.000Z",
         "launchedOn": "2025-11-04",
         "headline": "Ambient AI art, generated and curated by agents.",
         "metrics": [
-          { "label": "Status", "value": "Domain parked — site down" },
-          { "label": "Model mix", "value": "Fal + OpenAI" }
+          {
+            "label": "Status",
+            "value": "Domain parked \u2014 site down"
+          },
+          {
+            "label": "Model mix",
+            "value": "Fal + OpenAI"
+          }
         ],
         "linkUrl": "https://artv.ai",
         "linkLabel": "Visit ArtTV"
@@ -91,7 +210,12 @@
       "tagline": "AI-native presentation builder for executives.",
       "url": "https://storyd.ai",
       "domain": "storyd.ai",
-      "stack": ["Next.js", "Convex", "Clerk", "OpenAI"],
+      "stack": [
+        "Next.js",
+        "Convex",
+        "Clerk",
+        "OpenAI"
+      ],
       "variant": "full_saas",
       "stage": 9,
       "stageStatus": "on_track",
@@ -99,23 +223,74 @@
       "ownerAgent": "CMO",
       "productMdExcerpt": "Executive presentations generated and iterated in minutes, not hours. Tier-one monetization: paid seats and team plans.",
       "stageHistory": [
-        { "at": "2025-02-01T00:00:00.000Z", "fromStage": 0, "toStage": 1, "owner": "CPO" },
-        { "at": "2025-03-01T00:00:00.000Z", "fromStage": 1, "toStage": 2, "owner": "CPO" },
-        { "at": "2025-04-01T00:00:00.000Z", "fromStage": 2, "toStage": 3, "owner": "CDO" },
-        { "at": "2025-05-01T00:00:00.000Z", "fromStage": 3, "toStage": 4, "owner": "CTO" },
-        { "at": "2025-06-15T00:00:00.000Z", "fromStage": 4, "toStage": 5, "owner": "CTO" },
-        { "at": "2025-08-01T00:00:00.000Z", "fromStage": 5, "toStage": 6, "owner": "CTO" },
-        { "at": "2025-09-10T00:00:00.000Z", "fromStage": 6, "toStage": 7, "owner": "CMO" },
-        { "at": "2025-09-25T00:00:00.000Z", "fromStage": 7, "toStage": 8, "owner": "CMO" },
-        { "at": "2025-10-01T00:00:00.000Z", "fromStage": 8, "toStage": 9, "owner": "CMO" }
+        {
+          "at": "2025-02-01T00:00:00.000Z",
+          "fromStage": 0,
+          "toStage": 1,
+          "owner": "CPO"
+        },
+        {
+          "at": "2025-03-01T00:00:00.000Z",
+          "fromStage": 1,
+          "toStage": 2,
+          "owner": "CPO"
+        },
+        {
+          "at": "2025-04-01T00:00:00.000Z",
+          "fromStage": 2,
+          "toStage": 3,
+          "owner": "CDO"
+        },
+        {
+          "at": "2025-05-01T00:00:00.000Z",
+          "fromStage": 3,
+          "toStage": 4,
+          "owner": "CTO"
+        },
+        {
+          "at": "2025-06-15T00:00:00.000Z",
+          "fromStage": 4,
+          "toStage": 5,
+          "owner": "CTO"
+        },
+        {
+          "at": "2025-08-01T00:00:00.000Z",
+          "fromStage": 5,
+          "toStage": 6,
+          "owner": "CTO"
+        },
+        {
+          "at": "2025-09-10T00:00:00.000Z",
+          "fromStage": 6,
+          "toStage": 7,
+          "owner": "CMO"
+        },
+        {
+          "at": "2025-09-25T00:00:00.000Z",
+          "fromStage": 7,
+          "toStage": 8,
+          "owner": "CMO"
+        },
+        {
+          "at": "2025-10-01T00:00:00.000Z",
+          "fromStage": 8,
+          "toStage": 9,
+          "owner": "CMO"
+        }
       ],
       "launch": {
         "launchedAt": "2025-10-01T00:00:00.000Z",
         "launchedOn": "2025-10-01",
         "headline": "AI slide builder for executives who want the story, not the software.",
         "metrics": [
-          { "label": "Plans", "value": "Individual + Team" },
-          { "label": "Active decks", "value": "Growing" }
+          {
+            "label": "Plans",
+            "value": "Individual + Team"
+          },
+          {
+            "label": "Active decks",
+            "value": "Growing"
+          }
         ],
         "linkUrl": "https://storyd.ai",
         "linkLabel": "Visit STORYD"
@@ -124,10 +299,14 @@
     {
       "slug": "sarahsrecipes",
       "name": "Sarah's Recipes",
-      "tagline": "AI recipe platform — content-driven with ad/affiliate monetization.",
+      "tagline": "AI recipe platform \u2014 content-driven with ad/affiliate monetization.",
       "url": "https://sarahsrecipes.ai",
       "domain": "sarahsrecipes.ai",
-      "stack": ["Next.js", "Convex", "Clerk"],
+      "stack": [
+        "Next.js",
+        "Convex",
+        "Clerk"
+      ],
       "variant": "full_saas",
       "stage": 9,
       "stageStatus": "on_track",
@@ -135,23 +314,74 @@
       "ownerAgent": "CMO",
       "productMdExcerpt": "AI-generated recipe catalog optimized for search + ad/affiliate revenue. Content POC for the agent content-engine pattern.",
       "stageHistory": [
-        { "at": "2025-03-15T00:00:00.000Z", "fromStage": 0, "toStage": 1, "owner": "CPO" },
-        { "at": "2025-04-01T00:00:00.000Z", "fromStage": 1, "toStage": 2, "owner": "CPO" },
-        { "at": "2025-04-20T00:00:00.000Z", "fromStage": 2, "toStage": 3, "owner": "CDO" },
-        { "at": "2025-05-10T00:00:00.000Z", "fromStage": 3, "toStage": 4, "owner": "CTO" },
-        { "at": "2025-06-01T00:00:00.000Z", "fromStage": 4, "toStage": 5, "owner": "CTO" },
-        { "at": "2025-07-10T00:00:00.000Z", "fromStage": 5, "toStage": 6, "owner": "CTO" },
-        { "at": "2025-08-01T00:00:00.000Z", "fromStage": 6, "toStage": 7, "owner": "CMO" },
-        { "at": "2025-08-15T00:00:00.000Z", "fromStage": 7, "toStage": 8, "owner": "CMO" },
-        { "at": "2025-08-20T00:00:00.000Z", "fromStage": 8, "toStage": 9, "owner": "CMO" }
+        {
+          "at": "2025-03-15T00:00:00.000Z",
+          "fromStage": 0,
+          "toStage": 1,
+          "owner": "CPO"
+        },
+        {
+          "at": "2025-04-01T00:00:00.000Z",
+          "fromStage": 1,
+          "toStage": 2,
+          "owner": "CPO"
+        },
+        {
+          "at": "2025-04-20T00:00:00.000Z",
+          "fromStage": 2,
+          "toStage": 3,
+          "owner": "CDO"
+        },
+        {
+          "at": "2025-05-10T00:00:00.000Z",
+          "fromStage": 3,
+          "toStage": 4,
+          "owner": "CTO"
+        },
+        {
+          "at": "2025-06-01T00:00:00.000Z",
+          "fromStage": 4,
+          "toStage": 5,
+          "owner": "CTO"
+        },
+        {
+          "at": "2025-07-10T00:00:00.000Z",
+          "fromStage": 5,
+          "toStage": 6,
+          "owner": "CTO"
+        },
+        {
+          "at": "2025-08-01T00:00:00.000Z",
+          "fromStage": 6,
+          "toStage": 7,
+          "owner": "CMO"
+        },
+        {
+          "at": "2025-08-15T00:00:00.000Z",
+          "fromStage": 7,
+          "toStage": 8,
+          "owner": "CMO"
+        },
+        {
+          "at": "2025-08-20T00:00:00.000Z",
+          "fromStage": 8,
+          "toStage": 9,
+          "owner": "CMO"
+        }
       ],
       "launch": {
         "launchedAt": "2025-08-20T00:00:00.000Z",
         "launchedOn": "2025-08-20",
         "headline": "Proof that an agent content engine can feed an ad-supported recipe site.",
         "metrics": [
-          { "label": "Monetization", "value": "Ads + affiliate" },
-          { "label": "Recipes", "value": "185+" }
+          {
+            "label": "Monetization",
+            "value": "Ads + affiliate"
+          },
+          {
+            "label": "Recipes",
+            "value": "185+"
+          }
         ],
         "linkUrl": "https://sarahsrecipes.ai",
         "linkLabel": "Visit Sarah's Recipes"
@@ -160,34 +390,89 @@
     {
       "slug": "dannysdrinks",
       "name": "Danny's Drinks",
-      "tagline": "AI beverage recipe platform — sister site to Sarah's Recipes.",
+      "tagline": "AI beverage recipe platform \u2014 sister site to Sarah's Recipes.",
       "url": "https://dannysdrinks.ai",
       "domain": "dannysdrinks.ai",
-      "stack": ["Next.js", "Convex", "Clerk"],
+      "stack": [
+        "Next.js",
+        "Convex",
+        "Clerk"
+      ],
       "variant": "full_saas",
       "stage": 9,
       "stageStatus": "on_track",
       "enteredStageAt": "2025-09-01T00:00:00.000Z",
       "ownerAgent": "CMO",
-      "productMdExcerpt": "Beverage-specific variant of the content-engine playbook — cocktails, mocktails, and functional drinks.",
+      "productMdExcerpt": "Beverage-specific variant of the content-engine playbook \u2014 cocktails, mocktails, and functional drinks.",
       "stageHistory": [
-        { "at": "2025-05-01T00:00:00.000Z", "fromStage": 0, "toStage": 1, "owner": "CPO" },
-        { "at": "2025-05-20T00:00:00.000Z", "fromStage": 1, "toStage": 2, "owner": "CPO" },
-        { "at": "2025-06-10T00:00:00.000Z", "fromStage": 2, "toStage": 3, "owner": "CDO" },
-        { "at": "2025-06-25T00:00:00.000Z", "fromStage": 3, "toStage": 4, "owner": "CTO" },
-        { "at": "2025-07-10T00:00:00.000Z", "fromStage": 4, "toStage": 5, "owner": "CTO" },
-        { "at": "2025-08-01T00:00:00.000Z", "fromStage": 5, "toStage": 6, "owner": "CTO" },
-        { "at": "2025-08-15T00:00:00.000Z", "fromStage": 6, "toStage": 7, "owner": "CMO" },
-        { "at": "2025-08-25T00:00:00.000Z", "fromStage": 7, "toStage": 8, "owner": "CMO" },
-        { "at": "2025-09-01T00:00:00.000Z", "fromStage": 8, "toStage": 9, "owner": "CMO" }
+        {
+          "at": "2025-05-01T00:00:00.000Z",
+          "fromStage": 0,
+          "toStage": 1,
+          "owner": "CPO"
+        },
+        {
+          "at": "2025-05-20T00:00:00.000Z",
+          "fromStage": 1,
+          "toStage": 2,
+          "owner": "CPO"
+        },
+        {
+          "at": "2025-06-10T00:00:00.000Z",
+          "fromStage": 2,
+          "toStage": 3,
+          "owner": "CDO"
+        },
+        {
+          "at": "2025-06-25T00:00:00.000Z",
+          "fromStage": 3,
+          "toStage": 4,
+          "owner": "CTO"
+        },
+        {
+          "at": "2025-07-10T00:00:00.000Z",
+          "fromStage": 4,
+          "toStage": 5,
+          "owner": "CTO"
+        },
+        {
+          "at": "2025-08-01T00:00:00.000Z",
+          "fromStage": 5,
+          "toStage": 6,
+          "owner": "CTO"
+        },
+        {
+          "at": "2025-08-15T00:00:00.000Z",
+          "fromStage": 6,
+          "toStage": 7,
+          "owner": "CMO"
+        },
+        {
+          "at": "2025-08-25T00:00:00.000Z",
+          "fromStage": 7,
+          "toStage": 8,
+          "owner": "CMO"
+        },
+        {
+          "at": "2025-09-01T00:00:00.000Z",
+          "fromStage": 8,
+          "toStage": 9,
+          "owner": "CMO"
+        }
       ],
       "launch": {
         "launchedAt": "2025-09-01T00:00:00.000Z",
         "launchedOn": "2025-09-01",
-        "headline": "Content engine replication test — same playbook, new vertical.",
+        "headline": "Content engine replication test \u2014 same playbook, new vertical.",
         "metrics": [
-          { "label": "Monetization", "value": "Ads + affiliate" },
-          { "label": "Cocktails", "value": "Growing" }
+          {
+            "label": "Monetization",
+            "value": "Ads + affiliate"
+          },
+          {
+            "label": "Cocktails",
+            "value": "Growing"
+          }
         ],
         "linkUrl": "https://dannysdrinks.ai",
         "linkLabel": "Visit Danny's Drinks"
@@ -199,7 +484,10 @@
       "tagline": "The definitive LLM model directory and comparison site.",
       "url": "https://llmreference.com",
       "domain": "llmreference.com",
-      "stack": ["Next.js 16", "Static JSON"],
+      "stack": [
+        "Next.js 16",
+        "Static JSON"
+      ],
       "variant": "content_site",
       "stage": 9,
       "stageStatus": "on_track",
@@ -207,20 +495,56 @@
       "ownerAgent": "CMO",
       "productMdExcerpt": "Thought leadership + SEO gateway: every current LLM, benchmarked, cross-linked, and kept up-to-date by agent-owned routines.",
       "stageHistory": [
-        { "at": "2025-05-10T00:00:00.000Z", "fromStage": 0, "toStage": 1, "owner": "CPO" },
-        { "at": "2025-06-01T00:00:00.000Z", "fromStage": 1, "toStage": 2, "owner": "CPO" },
-        { "at": "2025-06-20T00:00:00.000Z", "fromStage": 2, "toStage": 3, "owner": "CDO" },
-        { "at": "2025-07-10T00:00:00.000Z", "fromStage": 3, "toStage": 7, "owner": "CMO" },
-        { "at": "2025-09-01T00:00:00.000Z", "fromStage": 7, "toStage": 8, "owner": "CMO" },
-        { "at": "2025-10-15T00:00:00.000Z", "fromStage": 8, "toStage": 9, "owner": "CMO" }
+        {
+          "at": "2025-05-10T00:00:00.000Z",
+          "fromStage": 0,
+          "toStage": 1,
+          "owner": "CPO"
+        },
+        {
+          "at": "2025-06-01T00:00:00.000Z",
+          "fromStage": 1,
+          "toStage": 2,
+          "owner": "CPO"
+        },
+        {
+          "at": "2025-06-20T00:00:00.000Z",
+          "fromStage": 2,
+          "toStage": 3,
+          "owner": "CDO"
+        },
+        {
+          "at": "2025-07-10T00:00:00.000Z",
+          "fromStage": 3,
+          "toStage": 7,
+          "owner": "CMO"
+        },
+        {
+          "at": "2025-09-01T00:00:00.000Z",
+          "fromStage": 7,
+          "toStage": 8,
+          "owner": "CMO"
+        },
+        {
+          "at": "2025-10-15T00:00:00.000Z",
+          "fromStage": 8,
+          "toStage": 9,
+          "owner": "CMO"
+        }
       ],
       "launch": {
         "launchedAt": "2025-10-15T00:00:00.000Z",
         "launchedOn": "2025-10-15",
         "headline": "Model directory with agent-maintained specs and pricing.",
         "metrics": [
-          { "label": "Models tracked", "value": "100+" },
-          { "label": "Monetization", "value": "Lead-gen + referrals" }
+          {
+            "label": "Models tracked",
+            "value": "100+"
+          },
+          {
+            "label": "Monetization",
+            "value": "Lead-gen + referrals"
+          }
         ],
         "linkUrl": "https://llmreference.com",
         "linkLabel": "Visit LLMReference"
@@ -229,10 +553,13 @@
     {
       "slug": "launchweek",
       "name": "LaunchWeek",
-      "tagline": "The public pipeline for autonomous SaaS — this site.",
+      "tagline": "The public pipeline for autonomous SaaS \u2014 this site.",
       "url": "https://launchweek.ai",
       "domain": "launchweek.ai",
-      "stack": ["Next.js 16", "Static MD + JSON"],
+      "stack": [
+        "Next.js 16",
+        "Static MD + JSON"
+      ],
       "variant": "content_site",
       "stage": 7,
       "stageStatus": "on_track",
@@ -240,12 +567,34 @@
       "enteredStageAt": "2026-04-23T00:00:00.000Z",
       "revisitAt": "2026-06-15",
       "ownerAgent": "CPO",
-      "productMdExcerpt": "The public pipeline and directory for AI-native founders shipping SaaS. Watch — and copy — the plays.",
+      "productMdExcerpt": "The public pipeline and directory for AI-native founders shipping SaaS. Watch \u2014 and copy \u2014 the plays.",
       "stageHistory": [
-        { "at": "2025-06-01T00:00:00.000Z", "fromStage": 0, "toStage": 1, "owner": "CPO" },
-        { "at": "2025-08-01T00:00:00.000Z", "fromStage": 1, "toStage": 2, "owner": "CPO" },
-        { "at": "2025-09-15T00:00:00.000Z", "fromStage": 2, "toStage": 7, "owner": "CMO", "notes": "v1 as human framework content site." },
-        { "at": "2026-04-23T00:00:00.000Z", "fromStage": 7, "toStage": 7, "owner": "CPO", "notes": "Re-scoped as multi-tenant pipeline platform (v2 strategy) — see DAT-2237." }
+        {
+          "at": "2025-06-01T00:00:00.000Z",
+          "fromStage": 0,
+          "toStage": 1,
+          "owner": "CPO"
+        },
+        {
+          "at": "2025-08-01T00:00:00.000Z",
+          "fromStage": 1,
+          "toStage": 2,
+          "owner": "CPO"
+        },
+        {
+          "at": "2025-09-15T00:00:00.000Z",
+          "fromStage": 2,
+          "toStage": 7,
+          "owner": "CMO",
+          "notes": "v1 as human framework content site."
+        },
+        {
+          "at": "2026-04-23T00:00:00.000Z",
+          "fromStage": 7,
+          "toStage": 7,
+          "owner": "CPO",
+          "notes": "Re-scoped as multi-tenant pipeline platform (v2 strategy) \u2014 see DAT-2237."
+        }
       ]
     },
     {
@@ -254,28 +603,66 @@
       "tagline": "5-day guided challenge for vibe-coding your first SaaS app with AI.",
       "url": "https://vibeweek.ai",
       "domain": "vibeweek.ai",
-      "stack": ["Next.js"],
+      "stack": [
+        "Next.js"
+      ],
       "variant": "content_site",
       "stage": 9,
       "stageStatus": "on_track",
       "enteredStageAt": "2025-12-01T00:00:00.000Z",
       "ownerAgent": "CMO",
-      "productMdExcerpt": "Companion to LaunchWeek — if LaunchWeek is the business framework, VibeWeek is the technical build challenge.",
+      "productMdExcerpt": "Companion to LaunchWeek \u2014 if LaunchWeek is the business framework, VibeWeek is the technical build challenge.",
       "stageHistory": [
-        { "at": "2025-06-01T00:00:00.000Z", "fromStage": 0, "toStage": 1, "owner": "CPO" },
-        { "at": "2025-08-01T00:00:00.000Z", "fromStage": 1, "toStage": 2, "owner": "CPO" },
-        { "at": "2025-09-01T00:00:00.000Z", "fromStage": 2, "toStage": 3, "owner": "CDO" },
-        { "at": "2025-10-01T00:00:00.000Z", "fromStage": 3, "toStage": 7, "owner": "CMO" },
-        { "at": "2025-11-20T00:00:00.000Z", "fromStage": 7, "toStage": 8, "owner": "CMO" },
-        { "at": "2025-12-01T00:00:00.000Z", "fromStage": 8, "toStage": 9, "owner": "CMO" }
+        {
+          "at": "2025-06-01T00:00:00.000Z",
+          "fromStage": 0,
+          "toStage": 1,
+          "owner": "CPO"
+        },
+        {
+          "at": "2025-08-01T00:00:00.000Z",
+          "fromStage": 1,
+          "toStage": 2,
+          "owner": "CPO"
+        },
+        {
+          "at": "2025-09-01T00:00:00.000Z",
+          "fromStage": 2,
+          "toStage": 3,
+          "owner": "CDO"
+        },
+        {
+          "at": "2025-10-01T00:00:00.000Z",
+          "fromStage": 3,
+          "toStage": 7,
+          "owner": "CMO"
+        },
+        {
+          "at": "2025-11-20T00:00:00.000Z",
+          "fromStage": 7,
+          "toStage": 8,
+          "owner": "CMO"
+        },
+        {
+          "at": "2025-12-01T00:00:00.000Z",
+          "fromStage": 8,
+          "toStage": 9,
+          "owner": "CMO"
+        }
       ],
       "launch": {
         "launchedAt": "2025-12-01T00:00:00.000Z",
         "launchedOn": "2025-12-01",
-        "headline": "Free vibe-coding challenge — build a SaaS app in 5 days with AI.",
+        "headline": "Free vibe-coding challenge \u2014 build a SaaS app in 5 days with AI.",
         "metrics": [
-          { "label": "Challenge length", "value": "5 days" },
-          { "label": "Free guides", "value": "145+" }
+          {
+            "label": "Challenge length",
+            "value": "5 days"
+          },
+          {
+            "label": "Free guides",
+            "value": "145+"
+          }
         ],
         "linkUrl": "https://vibeweek.ai",
         "linkLabel": "Visit VibeWeek"
@@ -287,7 +674,9 @@
       "tagline": "The reference site for vibe-coded apps and patterns.",
       "url": "https://vibereference.com",
       "domain": "vibereference.com",
-      "stack": ["Next.js"],
+      "stack": [
+        "Next.js"
+      ],
       "variant": "reference",
       "stage": 9,
       "stageStatus": "on_track",
@@ -295,18 +684,53 @@
       "ownerAgent": "CMO",
       "productMdExcerpt": "Reference gallery documenting patterns, apps, and agent workflows in the vibe-coding ecosystem.",
       "stageHistory": [
-        { "at": "2025-07-01T00:00:00.000Z", "fromStage": 0, "toStage": 1, "owner": "CPO" },
-        { "at": "2025-08-15T00:00:00.000Z", "fromStage": 1, "toStage": 2, "owner": "CPO" },
-        { "at": "2025-09-15T00:00:00.000Z", "fromStage": 2, "toStage": 3, "owner": "CDO" },
-        { "at": "2025-10-10T00:00:00.000Z", "fromStage": 3, "toStage": 7, "owner": "CMO" },
-        { "at": "2025-11-05T00:00:00.000Z", "fromStage": 7, "toStage": 8, "owner": "CMO" },
-        { "at": "2025-11-15T00:00:00.000Z", "fromStage": 8, "toStage": 9, "owner": "CMO" }
+        {
+          "at": "2025-07-01T00:00:00.000Z",
+          "fromStage": 0,
+          "toStage": 1,
+          "owner": "CPO"
+        },
+        {
+          "at": "2025-08-15T00:00:00.000Z",
+          "fromStage": 1,
+          "toStage": 2,
+          "owner": "CPO"
+        },
+        {
+          "at": "2025-09-15T00:00:00.000Z",
+          "fromStage": 2,
+          "toStage": 3,
+          "owner": "CDO"
+        },
+        {
+          "at": "2025-10-10T00:00:00.000Z",
+          "fromStage": 3,
+          "toStage": 7,
+          "owner": "CMO"
+        },
+        {
+          "at": "2025-11-05T00:00:00.000Z",
+          "fromStage": 7,
+          "toStage": 8,
+          "owner": "CMO"
+        },
+        {
+          "at": "2025-11-15T00:00:00.000Z",
+          "fromStage": 8,
+          "toStage": 9,
+          "owner": "CMO"
+        }
       ],
       "launch": {
         "launchedAt": "2025-11-15T00:00:00.000Z",
         "launchedOn": "2025-11-15",
         "headline": "Live catalogue of vibe-coded apps.",
-        "metrics": [{ "label": "Articles", "value": "150+" }],
+        "metrics": [
+          {
+            "label": "Articles",
+            "value": "150+"
+          }
+        ],
         "linkUrl": "https://vibereference.com",
         "linkLabel": "Visit VibeReference"
       }
@@ -314,24 +738,70 @@
     {
       "slug": "fastwrite",
       "name": "FastWrite",
-      "tagline": "AI content marketing platform — SEO/AEO/GEO pipeline + social distribution.",
+      "tagline": "AI content marketing platform \u2014 SEO/AEO/GEO pipeline + social distribution.",
       "domain": "fastwrite.ai",
-      "stack": ["Next.js 16", "Convex", "Clerk", "AI SDK"],
+      "stack": [
+        "Next.js 16",
+        "Convex",
+        "Clerk",
+        "AI SDK"
+      ],
       "variant": "full_saas",
       "stage": 8,
       "stageStatus": "on_track",
       "enteredStageAt": "2026-05-12T00:00:00.000Z",
       "ownerAgent": "CMO",
-      "productMdExcerpt": "End-to-end content pipeline: brief → research → draft → SEO/AEO/GEO optimization → publish → distribute. Built for content teams that want a full agent workforce, not a chat window.",
+      "productMdExcerpt": "End-to-end content pipeline: brief \u2192 research \u2192 draft \u2192 SEO/AEO/GEO optimization \u2192 publish \u2192 distribute. Built for content teams that want a full agent workforce, not a chat window.",
       "stageHistory": [
-        { "at": "2025-09-01T00:00:00.000Z", "fromStage": 0, "toStage": 1, "owner": "CPO" },
-        { "at": "2025-10-01T00:00:00.000Z", "fromStage": 1, "toStage": 2, "owner": "CPO" },
-        { "at": "2025-11-15T00:00:00.000Z", "fromStage": 2, "toStage": 3, "owner": "CDO" },
-        { "at": "2025-12-20T00:00:00.000Z", "fromStage": 3, "toStage": 4, "owner": "CTO" },
-        { "at": "2026-01-20T00:00:00.000Z", "fromStage": 4, "toStage": 5, "owner": "CTO" },
-        { "at": "2026-03-10T00:00:00.000Z", "fromStage": 5, "toStage": 6, "owner": "CTO" },
-        { "at": "2026-04-24T00:00:00.000Z", "fromStage": 6, "toStage": 7, "owner": "CMO" },
-        { "at": "2026-05-12T00:00:00.000Z", "fromStage": 7, "toStage": 8, "owner": "CMO", "notes": "Stage 7 (Content & SEO) acceptance signed off in DAT-4061 after CMO fix commit dc09477. Marketing site, on-page SEO, JSON-LD, sitemap, IndexNow, internal-link registry, and 23 blog posts shipped. Stage 8 (Pre-Launch) opens analytics/funnel instrumentation, go-decision dashboard, press kit, demo screencast, off-page outreach assets, and launch-day social pack — external publishing remains gated until board declares fastwrite.ai launched. Tracking issue: DAT-4062." }
+        {
+          "at": "2025-09-01T00:00:00.000Z",
+          "fromStage": 0,
+          "toStage": 1,
+          "owner": "CPO"
+        },
+        {
+          "at": "2025-10-01T00:00:00.000Z",
+          "fromStage": 1,
+          "toStage": 2,
+          "owner": "CPO"
+        },
+        {
+          "at": "2025-11-15T00:00:00.000Z",
+          "fromStage": 2,
+          "toStage": 3,
+          "owner": "CDO"
+        },
+        {
+          "at": "2025-12-20T00:00:00.000Z",
+          "fromStage": 3,
+          "toStage": 4,
+          "owner": "CTO"
+        },
+        {
+          "at": "2026-01-20T00:00:00.000Z",
+          "fromStage": 4,
+          "toStage": 5,
+          "owner": "CTO"
+        },
+        {
+          "at": "2026-03-10T00:00:00.000Z",
+          "fromStage": 5,
+          "toStage": 6,
+          "owner": "CTO"
+        },
+        {
+          "at": "2026-04-24T00:00:00.000Z",
+          "fromStage": 6,
+          "toStage": 7,
+          "owner": "CMO"
+        },
+        {
+          "at": "2026-05-12T00:00:00.000Z",
+          "fromStage": 7,
+          "toStage": 8,
+          "owner": "CMO",
+          "notes": "Stage 7 (Content & SEO) acceptance signed off in DAT-4061 after CMO fix commit dc09477. Marketing site, on-page SEO, JSON-LD, sitemap, IndexNow, internal-link registry, and 23 blog posts shipped. Stage 8 (Pre-Launch) opens analytics/funnel instrumentation, go-decision dashboard, press kit, demo screencast, off-page outreach assets, and launch-day social pack \u2014 external publishing remains gated until board declares fastwrite.ai launched. Tracking issue: DAT-4062."
+        }
       ]
     },
     {
@@ -339,7 +809,9 @@
       "name": "DeckChat",
       "tagline": "Chat-based slide editing for AI presentations.",
       "domain": "deckchat.ai",
-      "stack": ["TBD"],
+      "stack": [
+        "TBD"
+      ],
       "variant": "full_saas",
       "stage": 4,
       "stageStatus": "on_track",
@@ -347,10 +819,30 @@
       "ownerAgent": "CTO",
       "productMdExcerpt": "Sister product to STORYD focused on chat-based slide editing.",
       "stageHistory": [
-        { "at": "2026-01-15T00:00:00.000Z", "fromStage": 0, "toStage": 1, "owner": "CPO" },
-        { "at": "2026-02-20T00:00:00.000Z", "fromStage": 1, "toStage": 2, "owner": "CPO" },
-        { "at": "2026-03-20T00:00:00.000Z", "fromStage": 2, "toStage": 3, "owner": "CDO" },
-        { "at": "2026-04-24T00:00:00.000Z", "fromStage": 3, "toStage": 4, "owner": "CPO" }
+        {
+          "at": "2026-01-15T00:00:00.000Z",
+          "fromStage": 0,
+          "toStage": 1,
+          "owner": "CPO"
+        },
+        {
+          "at": "2026-02-20T00:00:00.000Z",
+          "fromStage": 1,
+          "toStage": 2,
+          "owner": "CPO"
+        },
+        {
+          "at": "2026-03-20T00:00:00.000Z",
+          "fromStage": 2,
+          "toStage": 3,
+          "owner": "CDO"
+        },
+        {
+          "at": "2026-04-24T00:00:00.000Z",
+          "fromStage": 3,
+          "toStage": 4,
+          "owner": "CPO"
+        }
       ]
     },
     {
@@ -358,21 +850,49 @@
       "name": "PPTX.dev",
       "tagline": "PowerPoint parsing and generation API for developers.",
       "domain": "pptx.dev",
-      "stack": ["Node.js", "Parser API"],
+      "stack": [
+        "Node.js",
+        "Parser API"
+      ],
       "variant": "full_saas",
       "stage": 5,
       "stageStatus": "blocked",
-      "stageStatusReason": "Deprioritized 2026-04-24: engineering capacity committed to storyd2 monetization push, Flixola video pivot, and LaunchWeek v2. Revisit when storyd2 ships paid tier. Stage 5 → 6 acceptance spec: https://github.com/Data-Advantage/pptx-dev/blob/master/docs/stage-5-acceptance.md",
+      "stageStatusReason": "Deprioritized 2026-04-24: engineering capacity committed to storyd2 monetization push, Flixola video pivot, and LaunchWeek v2. Revisit when storyd2 ships paid tier. Stage 5 \u2192 6 acceptance spec: https://github.com/Data-Advantage/pptx-dev/blob/master/docs/stage-5-acceptance.md",
       "revisitAt": "2026-06-15",
       "enteredStageAt": "2026-02-01T00:00:00.000Z",
       "ownerAgent": "CTO",
-      "productMdExcerpt": "Developer-first API for programmatic PowerPoint — parse, edit, generate. Feeds STORYD and third-party tools.",
+      "productMdExcerpt": "Developer-first API for programmatic PowerPoint \u2014 parse, edit, generate. Feeds STORYD and third-party tools.",
       "stageHistory": [
-        { "at": "2025-12-01T00:00:00.000Z", "fromStage": 0, "toStage": 1, "owner": "CPO" },
-        { "at": "2025-12-20T00:00:00.000Z", "fromStage": 1, "toStage": 2, "owner": "CPO" },
-        { "at": "2026-01-10T00:00:00.000Z", "fromStage": 2, "toStage": 3, "owner": "CDO" },
-        { "at": "2026-01-25T00:00:00.000Z", "fromStage": 3, "toStage": 4, "owner": "CTO" },
-        { "at": "2026-02-01T00:00:00.000Z", "fromStage": 4, "toStage": 5, "owner": "CTO" }
+        {
+          "at": "2025-12-01T00:00:00.000Z",
+          "fromStage": 0,
+          "toStage": 1,
+          "owner": "CPO"
+        },
+        {
+          "at": "2025-12-20T00:00:00.000Z",
+          "fromStage": 1,
+          "toStage": 2,
+          "owner": "CPO"
+        },
+        {
+          "at": "2026-01-10T00:00:00.000Z",
+          "fromStage": 2,
+          "toStage": 3,
+          "owner": "CDO"
+        },
+        {
+          "at": "2026-01-25T00:00:00.000Z",
+          "fromStage": 3,
+          "toStage": 4,
+          "owner": "CTO"
+        },
+        {
+          "at": "2026-02-01T00:00:00.000Z",
+          "fromStage": 4,
+          "toStage": 5,
+          "owner": "CTO"
+        }
       ]
     },
     {
@@ -380,7 +900,9 @@
       "name": "PPTX.gallery",
       "tagline": "Reference gallery for AI-generated presentations.",
       "domain": "pptx.gallery",
-      "stack": ["Next.js"],
+      "stack": [
+        "Next.js"
+      ],
       "variant": "reference",
       "stage": 8,
       "stageStatus": "on_track",
@@ -388,19 +910,51 @@
       "ownerAgent": "CMO",
       "productMdExcerpt": "Gallery of AI-generated slide decks to showcase what's possible and feed top-of-funnel for STORYD and DeckChat.",
       "stageHistory": [
-        { "at": "2026-01-15T00:00:00.000Z", "fromStage": 0, "toStage": 1, "owner": "CPO" },
-        { "at": "2026-02-05T00:00:00.000Z", "fromStage": 1, "toStage": 2, "owner": "CPO" },
-        { "at": "2026-02-25T00:00:00.000Z", "fromStage": 2, "toStage": 3, "owner": "CDO" },
-        { "at": "2026-04-10T00:00:00.000Z", "fromStage": 3, "toStage": 7, "owner": "CMO" },
-        { "at": "2026-05-01T00:00:00.000Z", "fromStage": 7, "toStage": 8, "owner": "CMO", "notes": "Stage 7 (Content & SEO) deliverables shipped: STORYD CTA placement (DAT-3415–DAT-3419) and free-trial messaging kit (DAT-3511/DAT-3518/DAT-3533/DAT-3540/DAT-3547) merged. Remaining funnel-instrumentation work (DAT-3417/DAT-3423) is the analytics/go-decision gate, which lives in Stage 8 (Pre-Launch) per LaunchWeek stage definitions." }
+        {
+          "at": "2026-01-15T00:00:00.000Z",
+          "fromStage": 0,
+          "toStage": 1,
+          "owner": "CPO"
+        },
+        {
+          "at": "2026-02-05T00:00:00.000Z",
+          "fromStage": 1,
+          "toStage": 2,
+          "owner": "CPO"
+        },
+        {
+          "at": "2026-02-25T00:00:00.000Z",
+          "fromStage": 2,
+          "toStage": 3,
+          "owner": "CDO"
+        },
+        {
+          "at": "2026-04-10T00:00:00.000Z",
+          "fromStage": 3,
+          "toStage": 7,
+          "owner": "CMO"
+        },
+        {
+          "at": "2026-05-01T00:00:00.000Z",
+          "fromStage": 7,
+          "toStage": 8,
+          "owner": "CMO",
+          "notes": "Stage 7 (Content & SEO) deliverables shipped: STORYD CTA placement (DAT-3415\u2013DAT-3419) and free-trial messaging kit (DAT-3511/DAT-3518/DAT-3533/DAT-3540/DAT-3547) merged. Remaining funnel-instrumentation work (DAT-3417/DAT-3423) is the analytics/go-decision gate, which lives in Stage 8 (Pre-Launch) per LaunchWeek stage definitions."
+        }
       ]
     },
     {
       "slug": "metricgen",
       "name": "MetricGen",
-      "tagline": "Metrics database for SaaS operators — benchmarks + generators.",
+      "tagline": "Metrics database for SaaS operators \u2014 benchmarks + generators.",
       "domain": "metricgen.com",
-      "stack": ["Next.js 16", "Convex", "Clerk", "Tailwind v4", "ECharts"],
+      "stack": [
+        "Next.js 16",
+        "Convex",
+        "Clerk",
+        "Tailwind v4",
+        "ECharts"
+      ],
       "variant": "full_saas",
       "stage": 6,
       "stageStatus": "on_track",
@@ -408,20 +962,55 @@
       "ownerAgent": "CTO",
       "productMdExcerpt": "Canonical database of SaaS metrics with AI-assisted benchmarking, anomaly detection, and metric generators.",
       "stageHistory": [
-        { "at": "2025-11-01T00:00:00.000Z", "fromStage": 0, "toStage": 1, "owner": "CPO" },
-        { "at": "2025-12-10T00:00:00.000Z", "fromStage": 1, "toStage": 2, "owner": "CPO" },
-        { "at": "2026-01-20T00:00:00.000Z", "fromStage": 2, "toStage": 3, "owner": "CDO" },
-        { "at": "2026-03-15T00:00:00.000Z", "fromStage": 3, "toStage": 4, "owner": "CTO" },
-        { "at": "2026-04-24T00:00:00.000Z", "fromStage": 4, "toStage": 5, "owner": "CTO" },
-        { "at": "2026-04-24T00:00:00.000Z", "fromStage": 5, "toStage": 6, "owner": "CTO" }
+        {
+          "at": "2025-11-01T00:00:00.000Z",
+          "fromStage": 0,
+          "toStage": 1,
+          "owner": "CPO"
+        },
+        {
+          "at": "2025-12-10T00:00:00.000Z",
+          "fromStage": 1,
+          "toStage": 2,
+          "owner": "CPO"
+        },
+        {
+          "at": "2026-01-20T00:00:00.000Z",
+          "fromStage": 2,
+          "toStage": 3,
+          "owner": "CDO"
+        },
+        {
+          "at": "2026-03-15T00:00:00.000Z",
+          "fromStage": 3,
+          "toStage": 4,
+          "owner": "CTO"
+        },
+        {
+          "at": "2026-04-24T00:00:00.000Z",
+          "fromStage": 4,
+          "toStage": 5,
+          "owner": "CTO"
+        },
+        {
+          "at": "2026-04-24T00:00:00.000Z",
+          "fromStage": 5,
+          "toStage": 6,
+          "owner": "CTO"
+        }
       ]
     },
     {
       "slug": "flixola",
       "name": "Flixola",
-      "tagline": "AI video generation SaaS — sister to Pixola.",
+      "tagline": "AI video generation SaaS \u2014 sister to Pixola.",
       "domain": "flixola.ai",
-      "stack": ["Next.js", "Convex", "Clerk", "Video"],
+      "stack": [
+        "Next.js",
+        "Convex",
+        "Clerk",
+        "Video"
+      ],
       "variant": "full_saas",
       "stage": 6,
       "stageStatus": "on_track",
@@ -430,12 +1019,42 @@
       "ownerAgent": "CTO",
       "productMdExcerpt": "Video-first creative SaaS using the same credit + freemium model proven on Pixola.",
       "stageHistory": [
-        { "at": "2025-11-15T00:00:00.000Z", "fromStage": 0, "toStage": 1, "owner": "CPO" },
-        { "at": "2025-12-10T00:00:00.000Z", "fromStage": 1, "toStage": 2, "owner": "CPO" },
-        { "at": "2026-01-25T00:00:00.000Z", "fromStage": 2, "toStage": 3, "owner": "CDO" },
-        { "at": "2026-02-20T00:00:00.000Z", "fromStage": 3, "toStage": 4, "owner": "CTO" },
-        { "at": "2026-03-25T00:00:00.000Z", "fromStage": 4, "toStage": 5, "owner": "CTO" },
-        { "at": "2026-05-06T00:00:00.000Z", "fromStage": 5, "toStage": 6, "owner": "CTO" }
+        {
+          "at": "2025-11-15T00:00:00.000Z",
+          "fromStage": 0,
+          "toStage": 1,
+          "owner": "CPO"
+        },
+        {
+          "at": "2025-12-10T00:00:00.000Z",
+          "fromStage": 1,
+          "toStage": 2,
+          "owner": "CPO"
+        },
+        {
+          "at": "2026-01-25T00:00:00.000Z",
+          "fromStage": 2,
+          "toStage": 3,
+          "owner": "CDO"
+        },
+        {
+          "at": "2026-02-20T00:00:00.000Z",
+          "fromStage": 3,
+          "toStage": 4,
+          "owner": "CTO"
+        },
+        {
+          "at": "2026-03-25T00:00:00.000Z",
+          "fromStage": 4,
+          "toStage": 5,
+          "owner": "CTO"
+        },
+        {
+          "at": "2026-05-06T00:00:00.000Z",
+          "fromStage": 5,
+          "toStage": 6,
+          "owner": "CTO"
+        }
       ]
     },
     {
@@ -443,7 +1062,10 @@
       "name": "DataStoryBot",
       "tagline": "Agentic API for turning data into narratives.",
       "domain": "datastorybot.com",
-      "stack": ["Next.js", "Agentic API"],
+      "stack": [
+        "Next.js",
+        "Agentic API"
+      ],
       "variant": "full_saas",
       "stage": 4,
       "stageStatus": "blocked",
@@ -451,12 +1073,32 @@
       "revisitAt": "2026-06-15",
       "enteredStageAt": "2026-04-05T00:00:00.000Z",
       "ownerAgent": "CTO",
-      "productMdExcerpt": "Developer playground + API to generate data narratives — pairs with DataStoryCoach.",
+      "productMdExcerpt": "Developer playground + API to generate data narratives \u2014 pairs with DataStoryCoach.",
       "stageHistory": [
-        { "at": "2026-01-01T00:00:00.000Z", "fromStage": 0, "toStage": 1, "owner": "CPO" },
-        { "at": "2026-02-05T00:00:00.000Z", "fromStage": 1, "toStage": 2, "owner": "CPO" },
-        { "at": "2026-03-05T00:00:00.000Z", "fromStage": 2, "toStage": 3, "owner": "CDO" },
-        { "at": "2026-04-05T00:00:00.000Z", "fromStage": 3, "toStage": 4, "owner": "CTO" }
+        {
+          "at": "2026-01-01T00:00:00.000Z",
+          "fromStage": 0,
+          "toStage": 1,
+          "owner": "CPO"
+        },
+        {
+          "at": "2026-02-05T00:00:00.000Z",
+          "fromStage": 1,
+          "toStage": 2,
+          "owner": "CPO"
+        },
+        {
+          "at": "2026-03-05T00:00:00.000Z",
+          "fromStage": 2,
+          "toStage": 3,
+          "owner": "CDO"
+        },
+        {
+          "at": "2026-04-05T00:00:00.000Z",
+          "fromStage": 3,
+          "toStage": 4,
+          "owner": "CTO"
+        }
       ]
     },
     {
@@ -464,19 +1106,37 @@
       "name": "DataStoryCoach",
       "tagline": "Reference site + AI chat coach for data storytelling.",
       "domain": "datastorycoach.com",
-      "stack": ["Next.js", "AI Chat"],
+      "stack": [
+        "Next.js",
+        "AI Chat"
+      ],
       "variant": "content_site",
       "stage": 3,
       "stageStatus": "blocked",
-      "stageStatusReason": "Parked 2026-04-27 (DAT-3367, reaffirmed DAT-3427). 30-day stall at Stage 3 (Design Direction). Engineering capacity committed to storyd2 monetization, Flixola video pivot, and LaunchWeek v2. Lead-gen surface for DataStoryBot — revisit 2026-06-15 (tied to storyd2 paid tier ship).",
+      "stageStatusReason": "Parked 2026-04-27 (DAT-3367, reaffirmed DAT-3427). 30-day stall at Stage 3 (Design Direction). Engineering capacity committed to storyd2 monetization, Flixola video pivot, and LaunchWeek v2. Lead-gen surface for DataStoryBot \u2014 revisit 2026-06-15 (tied to storyd2 paid tier ship).",
       "revisitAt": "2026-06-15",
       "enteredStageAt": "2026-03-28T00:00:00.000Z",
       "ownerAgent": "CDO",
       "productMdExcerpt": "Content + coaching surface for data storytelling practitioners. Lead-gen for DataStoryBot.",
       "stageHistory": [
-        { "at": "2026-01-15T00:00:00.000Z", "fromStage": 0, "toStage": 1, "owner": "CPO" },
-        { "at": "2026-02-15T00:00:00.000Z", "fromStage": 1, "toStage": 2, "owner": "CPO" },
-        { "at": "2026-03-28T00:00:00.000Z", "fromStage": 2, "toStage": 3, "owner": "CDO" }
+        {
+          "at": "2026-01-15T00:00:00.000Z",
+          "fromStage": 0,
+          "toStage": 1,
+          "owner": "CPO"
+        },
+        {
+          "at": "2026-02-15T00:00:00.000Z",
+          "fromStage": 1,
+          "toStage": 2,
+          "owner": "CPO"
+        },
+        {
+          "at": "2026-03-28T00:00:00.000Z",
+          "fromStage": 2,
+          "toStage": 3,
+          "owner": "CDO"
+        }
       ]
     },
     {
@@ -484,34 +1144,65 @@
       "name": "Kirkland Newborn",
       "tagline": "Practice management app for newborn photographers.",
       "domain": "kirklandnewborn.com",
-      "stack": ["Next.js"],
+      "stack": [
+        "Next.js"
+      ],
       "variant": "full_saas",
       "stage": 2,
       "stageStatus": "blocked",
-      "stageStatusReason": "Parked 2026-05-02 (DAT-3647). Launch target is 2027 per DAT-1107 — deliberately deferred, not stalled. Recent activity is operational (deploy fixes, Convex/Clerk auth migration, design debt), not Stage 2 strategy work. Revisit 2026-09-01 to begin Stage 2 → 3 ramp for a 2027 launch.",
+      "stageStatusReason": "Parked 2026-05-02 (DAT-3647). Launch target is 2027 per DAT-1107 \u2014 deliberately deferred, not stalled. Recent activity is operational (deploy fixes, Convex/Clerk auth migration, design debt), not Stage 2 strategy work. Revisit 2026-09-01 to begin Stage 2 \u2192 3 ramp for a 2027 launch.",
       "revisitAt": "2026-09-01",
       "enteredStageAt": "2026-04-02T00:00:00.000Z",
       "ownerAgent": "CPO",
-      "productMdExcerpt": "Vertical SaaS for a specialized photography niche — practice management, scheduling, and AI-powered client ops.",
+      "productMdExcerpt": "Vertical SaaS for a specialized photography niche \u2014 practice management, scheduling, and AI-powered client ops.",
       "stageHistory": [
-        { "at": "2026-02-20T00:00:00.000Z", "fromStage": 0, "toStage": 1, "owner": "CPO" },
-        { "at": "2026-04-02T00:00:00.000Z", "fromStage": 1, "toStage": 2, "owner": "CPO" }
+        {
+          "at": "2026-02-20T00:00:00.000Z",
+          "fromStage": 0,
+          "toStage": 1,
+          "owner": "CPO"
+        },
+        {
+          "at": "2026-04-02T00:00:00.000Z",
+          "fromStage": 1,
+          "toStage": 2,
+          "owner": "CPO"
+        }
       ]
     },
     {
       "slug": "biblebuddies",
       "name": "Bible Buddies",
       "tagline": "Voice-first Bible conversations for families.",
-      "stack": ["Voice", "AI"],
+      "stack": [
+        "Voice",
+        "AI"
+      ],
       "variant": "full_saas",
-      "stage": 2,
+      "stage": 3,
       "stageStatus": "on_track",
-      "enteredStageAt": "2026-04-12T00:00:00.000Z",
-      "ownerAgent": "CPO",
-      "productMdExcerpt": "Voice-first Bible conversation partner — bedtime-friendly, kid-safe, multi-generational.",
+      "enteredStageAt": "2026-05-18T00:00:00.000Z",
+      "ownerAgent": "CDO",
+      "productMdExcerpt": "Voice-first Bible conversation partner \u2014 bedtime-friendly, kid-safe, multi-generational.",
       "stageHistory": [
-        { "at": "2026-03-01T00:00:00.000Z", "fromStage": 0, "toStage": 1, "owner": "CPO" },
-        { "at": "2026-04-12T00:00:00.000Z", "fromStage": 1, "toStage": 2, "owner": "CPO" }
+        {
+          "at": "2026-03-01T00:00:00.000Z",
+          "fromStage": 0,
+          "toStage": 1,
+          "owner": "CPO"
+        },
+        {
+          "at": "2026-04-12T00:00:00.000Z",
+          "fromStage": 1,
+          "toStage": 2,
+          "owner": "CPO"
+        },
+        {
+          "at": "2026-05-18T00:00:00.000Z",
+          "fromStage": 2,
+          "toStage": 3,
+          "owner": "CPO"
+        }
       ]
     }
   ]
