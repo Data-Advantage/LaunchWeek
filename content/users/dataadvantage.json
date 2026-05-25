@@ -114,8 +114,8 @@
       "slug": "arttv",
       "name": "ArtTV",
       "tagline": "AI art and video platform \u2014 creative tools plus ambient gallery.",
-      "url": "https://artv.ai",
-      "domain": "artv.ai",
+      "url": "https://arttv.ai",
+      "domain": "arttv.ai",
       "stack": [
         "Next.js 15",
         "Convex",
@@ -125,8 +125,8 @@
       ],
       "variant": "full_saas",
       "stage": 9,
-      "stageStatus": "stalled",
-      "stageStatusReason": "Domain artv.ai still serves the Porkbun parked-domain page \u2014 no production deployment behind it. Flagged by gallery-refresh 2026-05-11 and re-confirmed 2026-05-25 (14 days unresolved). CTO must restore the live site this week or CMO will revoke the launch claim (downgrade to Stage 8 / hide tile).",
+      "stageStatus": "on_track",
+      "stageStatusReason": "Canonical live domain is arttv.ai; artv.ai was a stale parked-domain reference. Verified 2026-05-25 that https://arttv.ai redirects to https://www.arttv.ai and the Vercel art-tv production deployment is Ready.",
       "enteredStageAt": "2025-11-04T00:00:00.000Z",
       "ownerAgent": "CMO",
       "productMdExcerpt": "AI creative surface blending image/video generation with an ambient, always-on gallery. Positioned as the art TV for the AI era.",
@@ -193,14 +193,14 @@
         "metrics": [
           {
             "label": "Status",
-            "value": "Domain parked \u2014 site down"
+            "value": "Live at arttv.ai"
           },
           {
             "label": "Model mix",
             "value": "Fal + OpenAI"
           }
         ],
-        "linkUrl": "https://artv.ai",
+        "linkUrl": "https://arttv.ai",
         "linkLabel": "Visit ArtTV"
       }
     },
