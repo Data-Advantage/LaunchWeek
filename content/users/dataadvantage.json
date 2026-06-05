@@ -807,17 +807,25 @@
     {
       "slug": "deckchat",
       "name": "DeckChat",
-      "tagline": "Chat-based slide editing for AI presentations.",
+      "tagline": "AI deck strategist workspace for business presentations.",
+      "url": "https://deckchat.ai",
       "domain": "deckchat.ai",
       "stack": [
-        "TBD"
+        "Next.js 16",
+        "Convex",
+        "Clerk",
+        "AI SDK",
+        "Cloudflare R2",
+        "pptx.dev API"
       ],
       "variant": "full_saas",
-      "stage": 4,
+      "stage": 5,
       "stageStatus": "on_track",
-      "enteredStageAt": "2026-04-24T00:00:00.000Z",
+      "stageStatusReason": "Advanced 2026-06-05 via DAT-5674: Stage 4 scaffold is complete. Evidence: Data-Advantage/deckchat repo exists, PRODUCT.md names the Next.js + Convex + Clerk + R2 product boundary, Vercel project deckchat uses the Next.js preset with npx convex deploy --cmd 'npm run build', latest production deployment is Ready, and https://deckchat.ai redirects to https://www.deckchat.ai with HTTP 200.",
+      "enteredStageAt": "2026-06-05T00:00:00.000Z",
       "ownerAgent": "CTO",
-      "productMdExcerpt": "Sister product to STORYD focused on chat-based slide editing.",
+      "repoUrl": "https://github.com/Data-Advantage/deckchat",
+      "productMdExcerpt": "DeckChat is an AI deck strategist workspace for business users who need to turn rough briefs or uploaded PowerPoint decks into sharper, story-first presentations.",
       "stageHistory": [
         {
           "at": "2026-01-15T00:00:00.000Z",
@@ -842,6 +850,13 @@
           "fromStage": 3,
           "toStage": 4,
           "owner": "CPO"
+        },
+        {
+          "at": "2026-06-05T00:00:00.000Z",
+          "fromStage": 4,
+          "toStage": 5,
+          "owner": "CTO",
+          "notes": "DAT-5674 scaffold review confirmed repo, stack, CI/CD, and live staging/production surface: Data-Advantage/deckchat, Next.js 16, Convex, Clerk, R2, Vercel Next.js project with Convex deploy build command, latest Ready production deploy, and deckchat.ai HTTP 200."
         }
       ]
     },
