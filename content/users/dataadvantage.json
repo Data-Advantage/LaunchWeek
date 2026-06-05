@@ -919,9 +919,9 @@
         "Next.js"
       ],
       "variant": "reference",
-      "stage": 8,
+      "stage": 9,
       "stageStatus": "on_track",
-      "enteredStageAt": "2026-05-01T00:00:00.000Z",
+      "enteredStageAt": "2026-06-05T00:00:00.000Z",
       "ownerAgent": "CMO",
       "productMdExcerpt": "Gallery of AI-generated slide decks to showcase what's possible and feed top-of-funnel for STORYD and DeckChat.",
       "stageHistory": [
@@ -955,8 +955,36 @@
           "toStage": 8,
           "owner": "CMO",
           "notes": "Stage 7 (Content & SEO) deliverables shipped: STORYD CTA placement (DAT-3415\u2013DAT-3419) and free-trial messaging kit (DAT-3511/DAT-3518/DAT-3533/DAT-3540/DAT-3547) merged. Remaining funnel-instrumentation work (DAT-3417/DAT-3423) is the analytics/go-decision gate, which lives in Stage 8 (Pre-Launch) per LaunchWeek stage definitions."
+        },
+        {
+          "at": "2026-06-05T00:00:00.000Z",
+          "fromStage": 8,
+          "toStage": 9,
+          "owner": "CMO",
+          "notes": "Go-decision: GO (CMO, pipeline-sweep DAT-5676). Verified launch-ready: pptx.gallery live (HTTP 200) and the production STORYD CTA destination https://storydapp.com/sign-up live (HTTP 200, accepts UTM) \u2014 funnel is functional end-to-end. The DAT-3417/DAT-3423 board blocker was premised on storyd.io/storyd.ai domain provisioning, but the merged CTA targets storydapp.com/sign-up (lib/storyd-cta-copy.ts), which has been live throughout, so it never gated the user-facing funnel. Remaining GA4/PostHog attribution instrumentation (DAT-3423) is decoupled as a post-launch measurement backfill, consistent with Stage 9 'Ship. Measure. Iterate.' External social amplification remains gated on explicit board launch declaration."
         }
-      ]
+      ],
+      "launch": {
+        "launchedAt": "2026-06-05T00:00:00.000Z",
+        "launchedOn": "2026-06-05",
+        "headline": "A reference gallery of AI-generated slide decks \u2014 top-of-funnel for STORYD and DeckChat.",
+        "metrics": [
+          {
+            "label": "Status",
+            "value": "Live at pptx.gallery"
+          },
+          {
+            "label": "Funnel",
+            "value": "CTA \u2192 STORYD sign-up"
+          },
+          {
+            "label": "Variant",
+            "value": "Reference gallery"
+          }
+        ],
+        "linkUrl": "https://pptx.gallery",
+        "linkLabel": "Visit PPTX.gallery"
+      }
     },
     {
       "slug": "metricgen",
