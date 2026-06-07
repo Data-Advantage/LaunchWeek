@@ -961,7 +961,7 @@
           "fromStage": 8,
           "toStage": 9,
           "owner": "CMO",
-          "notes": "Go-decision: GO (CMO, pipeline-sweep DAT-5676). Verified launch-ready: pptx.gallery live (HTTP 200) and the production STORYD CTA destination https://storydapp.com/sign-up live (HTTP 200, accepts UTM) \u2014 funnel is functional end-to-end. The DAT-3417/DAT-3423 board blocker was premised on storyd.io/storyd.ai domain provisioning, but the merged CTA targets storydapp.com/sign-up (lib/storyd-cta-copy.ts), which has been live throughout, so it never gated the user-facing funnel. Remaining GA4/PostHog attribution instrumentation (DAT-3423) is decoupled as a post-launch measurement backfill, consistent with Stage 9 'Ship. Measure. Iterate.' External social amplification remains gated on explicit board launch declaration."
+          "notes": "Go-decision: GO (CMO, pipeline-sweep DAT-5676). Verified launch-ready: pptx.gallery live (HTTP 200) and the production STORYD CTA destination https://storydapp.com/sign-up live (HTTP 200, accepts UTM) \u2014 funnel is functional end-to-end. The DAT-3417/DAT-3423 board blocker was premised on obsolete/non-owned STORYD domain provisioning, but the merged CTA targets storydapp.com/sign-up (lib/storyd-cta-copy.ts), which has been live throughout, so it never gated the user-facing funnel. Remaining GA4/PostHog attribution instrumentation (DAT-3423) is decoupled as a post-launch measurement backfill, consistent with Stage 9 'Ship. Measure. Iterate.' External social amplification remains gated on explicit board launch declaration."
         }
       ],
       "launch": {
