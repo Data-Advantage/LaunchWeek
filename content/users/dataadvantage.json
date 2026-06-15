@@ -914,6 +914,7 @@
       "slug": "pptx-gallery",
       "name": "PPTX.gallery",
       "tagline": "Reference gallery for AI-generated presentations.",
+      "url": "https://pptx.gallery",
       "domain": "pptx.gallery",
       "stack": [
         "Next.js"
