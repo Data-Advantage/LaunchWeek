@@ -1151,18 +1151,18 @@
       "slug": "datastorycoach",
       "name": "DataStoryCoach",
       "tagline": "Reference site + AI chat coach for data storytelling.",
-      "domain": "datastorycoach.com",
+      "url": "https://www.datastorycoach.ai",
+      "domain": "datastorycoach.ai",
       "stack": [
         "Next.js",
         "AI Chat"
       ],
       "variant": "content_site",
-      "stage": 3,
-      "stageStatus": "blocked",
-      "stageStatusReason": "Parked 2026-04-27 (DAT-3367, reaffirmed DAT-3427). 30-day stall at Stage 3 (Design Direction). Engineering capacity committed to storyd2 monetization, Flixola video pivot, and LaunchWeek v2. Lead-gen surface for DataStoryBot \u2014 revisit 2026-06-15 (tied to storyd2 paid tier ship).",
-      "revisitAt": "2026-06-15",
-      "enteredStageAt": "2026-03-28T00:00:00.000Z",
-      "ownerAgent": "CDO",
+      "stage": 7,
+      "stageStatus": "on_track",
+      "stageStatusReason": "Resumed 2026-06-16 after the CEO GO decision in DAT-6203. The old Stage 3 capacity/design blocker is stale: product strategy, 64 articles, and the live datastorycoach.ai footprint are already shipped. Active owner is CMO for Content & SEO / pre-launch readiness. Chat and Clerk launch hardening remain tracked separately and do not block clearing the Stage 3 stall.",
+      "enteredStageAt": "2026-06-16T00:00:00.000Z",
+      "ownerAgent": "CMO",
       "productMdExcerpt": "Content + coaching surface for data storytelling practitioners. Lead-gen for DataStoryBot.",
       "stageHistory": [
         {
@@ -1182,6 +1182,13 @@
           "fromStage": 2,
           "toStage": 3,
           "owner": "CDO"
+        },
+        {
+          "at": "2026-06-16T00:00:00.000Z",
+          "fromStage": 3,
+          "toStage": 7,
+          "owner": "CMO",
+          "notes": "DAT-6203 CEO GO decision: resume DataStoryCoach in the active LaunchWeek pipeline because product strategy, 64 articles, and the live datastorycoach.ai footprint are already shipped."
         }
       ]
     },
