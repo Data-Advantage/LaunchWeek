@@ -1107,19 +1107,21 @@
       "slug": "datastorybot",
       "name": "DataStoryBot",
       "tagline": "Agentic API for turning data into narratives.",
-      "domain": "datastorybot.com",
+      "url": "https://www.datastory.bot",
+      "domain": "datastory.bot",
       "stack": [
-        "Next.js",
-        "Agentic API"
+        "Next.js 16",
+        "OpenAI Containers API",
+        "Cloudflare R2",
+        "Vercel"
       ],
       "variant": "full_saas",
       "stage": 4,
-      "stageStatus": "blocked",
-      "stageStatusReason": "Parked 2026-05-05 (DAT-3785). Stage 4 scaffold is incomplete: repo exists, but no GitHub Actions workflow or Vercel staging project was found. Engineering capacity remains committed to storyd2 monetization, Flixola video pivot, and LaunchWeek v2. Paired with DataStoryCoach - revisit 2026-06-15 (tied to storyd2 paid tier ship).",
-      "revisitAt": "2026-06-15",
+      "stageStatus": "on_track",
+      "stageStatusReason": "Resumed 2026-06-16 via DAT-6206 after the expired 2026-06-15 revisit. The stale DAT-3785 capacity blocker is cleared: Data-Advantage/DataStoryBot exists, the App Router Next.js 16 scaffold is live at https://www.datastory.bot and datastorybot.vercel.app, and DAT-6206 adds GitHub Actions CI. Remaining Stage 4 active gate: authenticated Vercel project inspect plus bare-domain 308 redirect verification; current public smoke shows datastory.bot returns 307 to www.",
       "enteredStageAt": "2026-04-05T00:00:00.000Z",
       "ownerAgent": "CTO",
-      "productMdExcerpt": "Developer playground + API to generate data narratives \u2014 pairs with DataStoryCoach.",
+      "productMdExcerpt": "Agentic data narrative playground and API for CSV analysis, story extraction, and chart/report generation.",
       "stageHistory": [
         {
           "at": "2026-01-01T00:00:00.000Z",
