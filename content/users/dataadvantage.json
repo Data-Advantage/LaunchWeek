@@ -1118,7 +1118,7 @@
       "variant": "full_saas",
       "stage": 4,
       "stageStatus": "on_track",
-      "stageStatusReason": "Resumed 2026-06-16 via DAT-6206 after the expired 2026-06-15 revisit. The stale DAT-3785 capacity blocker is cleared: Data-Advantage/DataStoryBot exists, the App Router Next.js 16 scaffold is live at https://www.datastory.bot and datastorybot.vercel.app, DAT-6206 adds GitHub Actions CI, Vercel project data-story-bot uses the Next.js preset with default output/build settings, and datastory.bot now returns HTTP 308 to www.datastory.bot.",
+      "stageStatusReason": "Resumed 2026-06-16 via DAT-6206 after the expired 2026-06-15 revisit. The stale DAT-3785 capacity blocker is cleared: Data-Advantage/DataStoryBot exists, the App Router Next.js 16 scaffold is live at https://www.datastory.bot and datastorybot.vercel.app, DAT-6206 adds GitHub Actions CI, Vercel project data-story-bot uses the Next.js preset with default output/build settings, and datastory.bot now returns HTTP 308 to www.datastory.bot. DAT-6207 tracks the separate R2 credential/upload-path smoke gate before Stage 5/MVP hardening.",
       "enteredStageAt": "2026-04-05T00:00:00.000Z",
       "ownerAgent": "CTO",
       "productMdExcerpt": "Agentic data narrative playground and API for CSV analysis, story extraction, and chart/report generation.",
