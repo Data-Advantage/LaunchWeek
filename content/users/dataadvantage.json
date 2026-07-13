@@ -113,7 +113,7 @@
     {
       "slug": "arttv",
       "name": "ArtTV",
-      "tagline": "AI art and video platform \u2014 creative tools plus ambient gallery.",
+      "tagline": "Frame TV art generator for room-ready AI wall art.",
       "url": "https://arttv.ai",
       "domain": "arttv.ai",
       "stack": [
@@ -129,7 +129,7 @@
       "stageStatusReason": "Canonical live domain is arttv.ai; artv.ai was a stale parked-domain reference. Verified 2026-05-25 that https://arttv.ai redirects to https://www.arttv.ai and the Vercel art-tv production deployment is Ready.",
       "enteredStageAt": "2025-11-04T00:00:00.000Z",
       "ownerAgent": "CMO",
-      "productMdExcerpt": "AI creative surface blending image/video generation with an ambient, always-on gallery. Positioned as the art TV for the AI era.",
+      "productMdExcerpt": "AI creative surface for generating decor-ready 16:9 wall art for Frame TVs, living rooms, bedrooms, and gallery walls.",
       "stageHistory": [
         {
           "at": "2025-05-01T00:00:00.000Z",
@@ -189,15 +189,15 @@
       "launch": {
         "launchedAt": "2025-11-04T00:00:00.000Z",
         "launchedOn": "2025-11-04",
-        "headline": "Ambient AI art, generated and curated by agents.",
+        "headline": "Room-ready AI wall art for Frame TVs and gallery displays.",
         "metrics": [
           {
             "label": "Status",
             "value": "Live at arttv.ai"
           },
           {
-            "label": "Model mix",
-            "value": "Fal + OpenAI"
+            "label": "Use case",
+            "value": "16:9 wall art"
           }
         ],
         "linkUrl": "https://arttv.ai",
@@ -299,7 +299,7 @@
     {
       "slug": "sarahsrecipes",
       "name": "Sarah's Recipes",
-      "tagline": "AI recipe platform \u2014 content-driven with ad/affiliate monetization.",
+      "tagline": "Clean AI-powered recipe discovery without ads, stories, or popups.",
       "url": "https://sarahsrecipes.ai",
       "domain": "sarahsrecipes.ai",
       "stack": [
@@ -312,7 +312,7 @@
       "stageStatus": "on_track",
       "enteredStageAt": "2025-08-20T00:00:00.000Z",
       "ownerAgent": "CMO",
-      "productMdExcerpt": "AI-generated recipe catalog optimized for search + ad/affiliate revenue. Content POC for the agent content-engine pattern.",
+      "productMdExcerpt": "AI-powered recipe catalog optimized for fast, clutter-free recipe discovery. Content POC for the agent content-engine pattern.",
       "stageHistory": [
         {
           "at": "2025-03-15T00:00:00.000Z",
@@ -372,11 +372,11 @@
       "launch": {
         "launchedAt": "2025-08-20T00:00:00.000Z",
         "launchedOn": "2025-08-20",
-        "headline": "Proof that an agent content engine can feed an ad-supported recipe site.",
+        "headline": "Proof that an agent content engine can build a fast, clutter-free recipe site.",
         "metrics": [
           {
-            "label": "Monetization",
-            "value": "Ads + affiliate"
+            "label": "UX",
+            "value": "No ads or stories"
           },
           {
             "label": "Recipes",
@@ -481,7 +481,7 @@
     {
       "slug": "llmreference",
       "name": "LLMReference",
-      "tagline": "The definitive LLM model directory and comparison site.",
+      "tagline": "Decision-support reference for engineers choosing an LLM and provider.",
       "url": "https://llmreference.com",
       "domain": "llmreference.com",
       "stack": [
@@ -493,7 +493,7 @@
       "stageStatus": "on_track",
       "enteredStageAt": "2025-10-15T00:00:00.000Z",
       "ownerAgent": "CMO",
-      "productMdExcerpt": "Thought leadership + SEO gateway: every current LLM, benchmarked, cross-linked, and kept up-to-date by agent-owned routines.",
+      "productMdExcerpt": "Decision-support reference for engineers choosing an LLM and provider, with searchable model and provider comparisons kept current by agent-owned routines.",
       "stageHistory": [
         {
           "at": "2025-05-10T00:00:00.000Z",
@@ -535,7 +535,7 @@
       "launch": {
         "launchedAt": "2025-10-15T00:00:00.000Z",
         "launchedOn": "2025-10-15",
-        "headline": "Model directory with agent-maintained specs and pricing.",
+        "headline": "LLM decision-support reference with agent-maintained specs and pricing.",
         "metrics": [
           {
             "label": "Models tracked",
