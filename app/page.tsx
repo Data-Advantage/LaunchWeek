@@ -87,7 +87,7 @@ export default function HomePage() {
             <div>
               <p className="font-mono text-xs uppercase tracking-widest text-brand-400">Seeded user</p>
               <h2 className="mt-1 font-heading text-xl font-semibold text-white">
-                launchweek.ai/u/dataadvantage — 19 projects, 7 launched
+                launchweek.ai/u/dataadvantage — 19 projects, 9 launched
               </h2>
               <p className="mt-1 text-sm text-slate-400">
                 Live pipeline for an AI-native holding company. More users soon — join the directory waitlist.
